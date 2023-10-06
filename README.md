@@ -1,5 +1,5 @@
-# Aliance
+# Aliance Production
 
-Companys site
+Official site
 
 ### Author: Dmitry Shimansky
