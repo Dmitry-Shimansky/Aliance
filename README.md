@@ -1,5 +1,5 @@
-# html-starter
+# Aliance
 
-Started template for site layout
+Companys site
 
 ### Author: Dmitry Shimansky
