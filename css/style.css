@@ -34,20 +34,20 @@ body {
   fill: #292d33;
 }
 .header {
-  padding: 94px;
+  padding: 94px 94px 0px 94px;
   min-height: 100vh;
 }
 .header-image {
   background-image: url("../img/header-bg.jpeg");
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: top center;
+  background-position: center bottom -48px;
   position: relative;
 }
 .header-image::before {
   content: "";
   position: absolute;
-  background: rgba(41, 45, 51, 0.6);
+  background: rgba(41, 45, 51, 0.8);
   top: 0;
   left: 0;
   width: 100%;
@@ -103,6 +103,7 @@ body {
 }
 .header-button {
   height: 100%;
+  padding: 25px 50px;
 }
 .separator {
   background: #5c8ee5;
@@ -121,6 +122,8 @@ body {
   font-size: 80px;
   line-height: 120%;
   margin: 30px 0px;
+  word-spacing: 0.6px;
+  letter-spacing: 0.6px;
 }
 .header-text {
   max-width: 720px;
@@ -128,7 +131,7 @@ body {
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
-  margin-bottom: 50px;
+  margin-bottom: 51px;
 }
 .header-features {
   display: flex;
@@ -141,12 +144,14 @@ body {
 }
 .header-feature-item {
   padding: 30px 50px;
+  width: 288px;
   border: 1px solid rgba(235, 235, 240, 0.2);
 }
 .header-features-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
+  margin-bottom: 0;
 }
 .header-feature-item:not(:last-child) {
   border-right: none;
@@ -160,6 +165,7 @@ body {
   font-size: 60px;
   line-height: 120%;
   color: #292d33;
+  margin-top: 30px;
 }
 .steps {
   display: flex;
@@ -168,7 +174,7 @@ body {
   gap: 30px;
 }
 .steps-item {
-  min-width: 330px;
+  max-width: 330px;
 }
 .steps-num {
   font-family: "Bebas Neue Book";
@@ -184,6 +190,7 @@ body {
   background: #ebebf0;
   width: 100%;
   margin-left: 30px;
+  margin-top: -6px;
 }
 .steps-title {
   font-size: 28px;
@@ -191,14 +198,16 @@ body {
   line-height: 160%;
   color: #292d33;
   margin-top: 30px;
-  margin-bottom: 10px;
+  margin-bottom: -5px;
+  padding-right: 30px;
 }
 .steps-text {
   font-size: 16px;
   font-weight: 400;
   line-height: 160%;
   color: #828a99;
-  margin-bottom: 20px;
+  margin-bottom: 22px;
+  padding-right: 30px;
 }
 .steps-link {
   display: flex;
