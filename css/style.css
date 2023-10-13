@@ -37,11 +37,11 @@ body {
   width: 8.75rem;
   height: 2.75rem;
 }
-.navbar-light .header-logo-path {
+/* .navbar-light .header-logo-path {
   fill: #292d33;
-}
+} */
 .header {
-  padding: 94px 94px 0px 94px;
+  padding: 5.875rem 5.875rem 0rem 5.875rem;
   min-height: 100vh;
 }
 .header-image {
@@ -106,7 +106,6 @@ body {
   align-items: center;
   justify-content: center;
   padding: 1.5625rem 3.75rem;
-  /* gap: 10px; */
   border: none;
   flex-shrink: 0;
   cursor: pointer;
@@ -235,7 +234,7 @@ body {
   width: 40px;
   margin-right: 1.25rem;
 }
-@media (max-width: 1620px) {
+@media (max-width: 1650px) {
   html {
     font-size: 14px;
   }
