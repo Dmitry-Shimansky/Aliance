@@ -316,6 +316,8 @@ body {
     height: 1px;
     background-color: #fff;
     width: 100%;
+    transition-duration: 0.5s;
+    transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
   }
   .mobil-menu-line:nth-child(2) {
     width: 80%;
@@ -407,5 +409,14 @@ body {
     align-items: center;
     gap: 0.625rem;
     margin-top: 1.25rem;
+  }
+  .close-menu .mobil-menu-line:nth-child(2) {
+    display: none;
+  }
+  .close-menu .mobil-menu-line:nth-child(1) {
+    transform: rotate(45deg) translateY(10px);
+  }
+  .close-menu .mobil-menu-line:nth-child(3) {
+    transform: rotate(-45deg) translateY(-10px);
   }
 }
