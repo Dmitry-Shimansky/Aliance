@@ -45,7 +45,6 @@ body {
 }
 .header {
   padding: 5.875rem 5.875rem 0rem 5.875rem;
-  min-height: 100vh;
 }
 .header-image {
   background-image: url("../img/header-bg.jpeg");
@@ -159,17 +158,42 @@ body {
 }
 .header-feature-item {
   padding: 1.875rem 3.125rem;
+  max-height: 100%;
   width: 18rem;
   border: 1px solid rgba(235, 235, 240, 0.2);
+}
+.slider-buttons {
+  display: none;
+  height: 44px;
+}
+.slider-button-prev,
+.slider-button-next {
+  height: 100%;
+  flex-basis: 50%;
+  border: 1px solid rgba(235, 235, 240, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+.second-slider-buttons {
+  display: none;
+  height: 40px;
+}
+.second-slider-button-prev,
+.second-slider-button-next {
+  height: 100%;
+  flex-basis: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
 }
 .header-features-text {
   font-size: 1rem;
   font-weight: 400;
   line-height: 160%;
   margin-bottom: 0;
-}
-.header-feature-item:not(:last-child) {
-  border-right: none;
 }
 .section {
   margin-top: 9.375rem;
@@ -279,11 +303,24 @@ body {
     display: none;
   }
   .navbar {
-    height: 5rem;
+    height: 5.65rem;
   }
   .navbar-button {
     padding-left: 2rem;
     padding-right: 2rem;
+  }
+  .header-features {
+    margin-bottom: 0;
+  }
+  .slider-buttons {
+    display: flex;
+  }
+  .slider-button-prev,
+  .slider-button-next {
+    border-top: none;
+  }
+  .second-slider-buttons {
+    display: flex;
   }
 }
 @media (max-width: 992px) {
@@ -291,7 +328,7 @@ body {
     font-size: 12px;
   }
   .container {
-    min-width: 60rem;
+    max-width: 60rem;
   }
   .header-nav {
     display: none;
@@ -306,7 +343,7 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 1.8rem;
+    padding: 2.2rem;
     border-right: 1px solid rgba(235, 235, 240, 0.2);
   }
   .navbar-light .mobil-menu-line {
@@ -414,9 +451,126 @@ body {
     display: none;
   }
   .close-menu .mobil-menu-line:nth-child(1) {
-    transform: rotate(45deg) translateY(10px);
+    transform: rotate(45deg) translateY(9px);
   }
   .close-menu .mobil-menu-line:nth-child(3) {
-    transform: rotate(-45deg) translateY(-10px);
+    transform: rotate(-45deg) translateY(-9px);
+  }
+}
+@media (max-width: 768px) {
+  .container {
+    max-width: 40rem;
+  }
+  .header-title {
+    font-size: 4rem;
+  }
+  .header-content {
+    padding-top: 3rem;
+  }
+}
+@media (max-width: 576px) {
+  .header-logo {
+    margin-left: 0;
+  }
+  .logo-svg {
+    max-width: 10.5rem;
+    width: 9.9rem;
+    height: 4.25rem;
+  }
+  .header {
+    padding: 0;
+    padding-top: 6.25rem;
+  }
+  .header-button {
+    padding: 1.5625rem 2.58rem;
+  }
+  .container {
+    max-width: 92%;
+  }
+  .header-title {
+    font-size: 4rem;
+    margin-top: 1.8rem;
+    margin-bottom: 0.8rem;
+  }
+  .header-content {
+    padding-top: 3.65rem;
+  }
+  .header-text {
+    font-size: 1.17rem;
+    margin-top: 0.3125rem;
+    margin-bottom: 2.3rem;
+  }
+  .header-text-button {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  .separator {
+    width: 8.5rem;
+  }
+  .header-features {
+    margin-top: 4.35rem;
+    min-height: 11.6rem;
+  }
+  .header-feature-item {
+    padding: 1.55rem 2.5rem;
+    min-height: 100%;
+    border-bottom: none;
+  }
+  .header-features-text {
+    margin-top: 1.5rem;
+    font-size: 1.1rem;
+    letter-spacing: 0.4px;
+    line-height: 1.8rem;
+    padding-right: 10rem;
+  }
+  .slider-button-next {
+    border-left: none;
+  }
+  .slider-button-prev,
+  .slider-button-next {
+    border-top: 1px solid rgba(235, 235, 240, 0.2);
+  }
+  .section {
+    margin-top: 8.35rem;
+  }
+  .steps {
+    margin-bottom: 1.6rem;
+  }
+  .steps-item {
+    max-width: 25.625rem;
+  }
+  .section-title {
+    font-size: 3rem;
+    margin-top: 1.75rem;
+  }
+  .steps-num {
+    font-size: 4rem;
+  }
+  .steps-num::after {
+    margin-left: 3.2rem;
+    margin-top: -0.8rem;
+  }
+  .steps-title {
+    margin-top: 0.5rem;
+    letter-spacing: -0.6px;
+  }
+  .steps-text {
+    padding: 0;
+    font-size: 1.17rem;
+    margin-top: 0.7rem;
+    margin-bottom: 2.1rem;
+  }
+  .steps-link::before {
+    margin-right: 1.7rem;
+  }
+  .steps-link {
+    font-size: 1.2rem;
+  }
+  .second-slider-buttons {
+    padding-left: 65%;
+  }
+  .second-slider-button-prev,
+  .second-slider-button-next {
+    background-color: #5c8ee5;
   }
 }

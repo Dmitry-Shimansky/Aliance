@@ -9,6 +9,7 @@
       href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title>Aliance Production</title>
@@ -155,42 +156,67 @@
             будущего проекта напрямую зависит от анализа существующих паттернов
             поведения.
           </p>
-          <button class="button">Подробнее о компании</button>
+          <button class="header-text-button button">
+            Подробнее о компании
+          </button>
         </div>
         <!-- /.header-content -->
-        <ul class="header-features">
-          <li class="header-feature-item">
-            <svg class="logo-svg" width="36" height="36">
-              <use href="img/sprite.svg#Speedometer"></use>
-            </svg>
-            <p class="header-features-text">Непрерывная работа c 2017 года</p>
-          </li>
-          <li class="header-feature-item">
-            <svg class="logo-svg" width="36" height="36">
-              <use href="img/sprite.svg#SendClock"></use>
-            </svg>
-            <p class="header-features-text">Вся продукция сертифицирована</p>
-          </li>
-          <li class="header-feature-item">
-            <svg class="logo-svg" width="36" height="36">
-              <use href="img/sprite.svg#Certificate"></use>
-            </svg>
-            <p class="header-features-text">Контроль качества на всех этапах</p>
-          </li>
-          <li class="header-feature-item">
-            <svg class="logo-svg" width="36" height="36">
-              <use href="img/sprite.svg#Worker"></use>
-            </svg>
-            <p class="header-features-text">Возможны поставки по всей России</p>
-          </li>
-          <li class="header-feature-item">
-            <svg class="logo-svg" width="36" height="36">
-              <use href="img/sprite.svg#Track"></use>
-            </svg>
-            <p class="header-features-text">Оперативное производство</p>
-          </li>
-        </ul>
-        <!-- /.header-features -->
+
+        <!-- Slider main container -->
+        <div class="swiper" id="swiper1">
+          <!-- Additional required wrapper -->
+          <ul class="swiper-wrapper header-features">
+            <!-- Slides -->
+            <li class="swiper-slide header-feature-item">
+              <svg width="36" height="36">
+                <use href="img/sprite.svg#Speedometer"></use>
+              </svg>
+              <p class="header-features-text">Непрерывная работа c 2017 года</p>
+            </li>
+            <li class="swiper-slide header-feature-item">
+              <svg width="36" height="36">
+                <use href="img/sprite.svg#SendClock"></use>
+              </svg>
+              <p class="header-features-text">Вся продукция сертифицирована</p>
+            </li>
+            <li class="swiper-slide header-feature-item">
+              <svg width="36" height="36">
+                <use href="img/sprite.svg#Certificate"></use>
+              </svg>
+              <p class="header-features-text">
+                Контроль качества на всех этапах
+              </p>
+            </li>
+            <li class="swiper-slide header-feature-item">
+              <svg width="36" height="36">
+                <use href="img/sprite.svg#Worker"></use>
+              </svg>
+              <p class="header-features-text">
+                Возможны поставки по всей России
+              </p>
+            </li>
+            <li class="swiper-slide header-feature-item">
+              <svg width="36" height="36">
+                <use href="img/sprite.svg#Track"></use>
+              </svg>
+              <p class="header-features-text">Оперативное производство</p>
+            </li>
+          </ul>
+          <!-- navigation buttons -->
+          <div class="slider-buttons">
+            <div class="slider-button-prev">
+              <svg width="36" height="24">
+                <use href="img/sprite.svg#arrow-prev"></use>
+              </svg>
+            </div>
+            <div class="slider-button-next">
+              <svg width="36" height="24">
+                <use href="img/sprite.svg#arrow-next"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <!-- /.swiper -->
       </div>
       <!-- /.container -->
     </header>
@@ -198,43 +224,64 @@
       <div class="container">
         <div class="separator"></div>
         <h2 class="section-title">схема работы</h2>
-        <ol class="steps">
-          <li class="steps-item">
-            <span class="steps-num">01</span>
-            <h3 class="steps-title">Знакомство</h3>
-            <p class="steps-text">
-              Безусловно, сплочённость команды профессионалов позволяет оценить
-              значение форм воздействия.
-            </p>
-            <a href="#" class="steps-link">Оставить заявку</a>
-          </li>
-          <li class="steps-item">
-            <span class="steps-num">02</span>
-            <h3 class="steps-title">Заключение договора</h3>
-            <p class="steps-text">
-              Лишь интерактивные прототипы призваны к ответу.
-            </p>
-          </li>
-          <li class="steps-item">
-            <span class="steps-num">03</span>
-            <h3 class="steps-title">Производство</h3>
-            <p class="steps-text">
-              А также стремящиеся вытеснить традиционное производство,
-              нанотехнологии функционально разнесены на независимые элементы.
-            </p>
-          </li>
-          <li class="steps-item">
-            <span class="steps-num">04</span>
-            <h3 class="steps-title">Доставка</h3>
-            <p class="steps-text">
-              В частности, экономическая повестка сегодняшнего дня говорит о
-              возможностях приоритизации разума над эмоциями.
-            </p>
-          </li>
-        </ol>
+
+        <!-- Slider section container -->
+        <div class="swiper" id="swiper2">
+          <!-- Additional required wrapper -->
+          <ol class="swiper-wrapper steps">
+            <!-- Slides -->
+            <li class="swiper-slide steps-item">
+              <span class="steps-num">01</span>
+              <h3 class="steps-title">Знакомство</h3>
+              <p class="steps-text">
+                Безусловно, сплочённость команды профессионалов позволяет
+                оценить значение форм воздействия.
+              </p>
+              <a href="#" class="steps-link">Оставить заявку</a>
+            </li>
+            <li class="swiper-slide steps-item">
+              <span class="steps-num">02</span>
+              <h3 class="steps-title">Заключение договора</h3>
+              <p class="steps-text">
+                Лишь интерактивные прототипы призваны к ответу.
+              </p>
+            </li>
+            <li class="swiper-slide steps-item">
+              <span class="steps-num">03</span>
+              <h3 class="steps-title">Производство</h3>
+              <p class="steps-text">
+                А также стремящиеся вытеснить традиционное производство,
+                нанотехнологии функционально разнесены на независимые элементы.
+              </p>
+            </li>
+            <li class="swiper-slide steps-item">
+              <span class="steps-num">04</span>
+              <h3 class="steps-title">Доставка</h3>
+              <p class="steps-text">
+                В частности, экономическая повестка сегодняшнего дня говорит о
+                возможностях приоритизации разума над эмоциями.
+              </p>
+            </li>
+          </ol>
+          <!-- navigation buttons -->
+          <div class="second-slider-buttons">
+            <div class="second-slider-button-prev">
+              <svg width="36" height="24">
+                <use href="img/sprite.svg#arrow-prev"></use>
+              </svg>
+            </div>
+            <div class="second-slider-button-next">
+              <svg width="36" height="24">
+                <use href="img/sprite.svg#arrow-next"></use>
+              </svg>
+            </div>
+          </div>
+        </div>
+        <!-- /.swiper -->
       </div>
       <!-- /.container -->
     </section>
+    <script src="js/swiper-bundle.min.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>
