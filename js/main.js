@@ -78,8 +78,8 @@ const secondSwiper = new Swiper("#swiper2", {
   autoHeight: false,
   direction: "horizontal",
   slidesPerView: 1,
-  slidesOffsetAfter: -50,
-  slidesOffsetBefore: 30,
+  // slidesOffsetAfter: -50,
+  // slidesOffsetBefore: 30,
   navigation: {
     nextEl: ".second-slider-button-next",
     prevEl: ".second-slider-button-prev",
