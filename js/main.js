@@ -78,28 +78,26 @@ const secondSwiper = new Swiper("#swiper2", {
   autoHeight: false,
   direction: "horizontal",
   slidesPerView: 1,
-  // slidesOffsetAfter: -50,
-  // slidesOffsetBefore: 30,
   navigation: {
     nextEl: ".second-slider-button-next",
     prevEl: ".second-slider-button-prev",
   },
   breakpoints: {
     // when window width is >= 576px
-    576: {
+    620: {
       slidesPerView: 2,
     },
     // when window width is >= 768px
-    768: {
-      slidesPerView: 3,
+    860: {
+      slidesPerView: 2,
     },
     // when window width is >= 1024px
     1024: {
-      slidesPerView: 4,
+      slidesPerView: 3,
     },
     // when window width is >= 1200px
     1200: {
-      slidesPerView: 5,
+      slidesPerView: 4,
     },
   },
 });
