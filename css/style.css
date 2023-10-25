@@ -201,7 +201,7 @@ body {
   margin-bottom: 0;
 }
 .section {
-  margin-bottom: 9.375rem;
+  /* margin-bottom: 9.375rem; */
   padding: 9.375rem 5.875rem 0rem 5.875rem;
 }
 .section-title {
@@ -269,6 +269,40 @@ body {
   width: 40px;
   margin-right: 1.25rem;
 }
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+.card {
+  flex-basis: 33%;
+  border: 1px solid #ebebf0;
+  position: relative;
+}
+.card-content {
+  padding: 2.5rem 3.125rem;
+}
+.card-title {
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 160%;
+  color: #292d33;
+  margin-top: 0;
+  margin-bottom: 0.625rem;
+}
+.card-text {
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  color: #828a99;
+  margin-bottom: 24.625rem;
+}
+.card-image {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 90%;
+  z-index: 0;
+}
 @media (max-width: 1650px) {
   html {
     font-size: 14px;
@@ -326,12 +360,9 @@ body {
   }
   .second-slider-buttons {
     display: flex;
-    /* padding-left: 65%; */
   }
-  .second-slider-button-prev,
-  .second-slider-button-next {
-    /* align-items: center;
-  justify-content: center; */
+  .card {
+    flex-basis: 50%;
   }
 }
 @media (max-width: 992px) {
@@ -480,6 +511,9 @@ body {
   }
   .header-content {
     padding-top: 3rem;
+  }
+  .card {
+    flex-basis: 100%;
   }
 }
 @media (max-width: 576px) {
