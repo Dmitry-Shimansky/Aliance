@@ -461,6 +461,10 @@ body {
   .mark:nth-child(2) {
     border-left: 1px solid #ebebf0;
   }
+  .mark:hover {
+    border-left: 1px solid;
+    border-color: #5c8ee6;
+  }
 }
 @media (max-width: 992px) {
   html {
