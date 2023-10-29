@@ -738,6 +738,9 @@ body {
   .card-image {
     width: 100%;
   }
+  .trade-word {
+    display: none;
+  }
   .trade-marks {
     padding-top: 5.4rem;
   }
