@@ -724,21 +724,25 @@ body {
     padding-top: 8.3rem;
   }
   .card-content {
-    padding: 1.2rem 2.5rem 0.8rem 2.5rem;
+    padding: 1.6rem 2.5rem 0.8rem 2.5rem;
   }
   .card-title {
     letter-spacing: -0.7px;
     margin-bottom: 0.6rem;
+    line-height: 1.2;
   }
   .card-text {
     margin-top: 0;
     font-size: 1.16rem;
   }
+  .card-image {
+    width: 100%;
+  }
   .trade-marks {
     padding-top: 5.4rem;
   }
   .section-title {
-    letter-spacing: 0.4px;
+    letter-spacing: 0.3px;
   }
 }
 @media (max-width: 400px) {
