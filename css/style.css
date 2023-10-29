@@ -749,9 +749,6 @@ body {
   }
 }
 @media (max-width: 400px) {
-  .trade-word {
-    display: none;
-  }
   .mark-image {
     width: 100px;
     height: 100px;
