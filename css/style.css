@@ -237,6 +237,7 @@ body {
   line-height: 120%;
   color: #292d33;
   margin-top: 1.875rem;
+  letter-spacing: 0.02rem;
 }
 .steps {
   display: flex;
@@ -302,7 +303,7 @@ body {
   width: 60px;
 }
 .section-production {
-  padding: 7.7rem 5.875rem 0rem 5.875rem;
+  padding: 7.75rem 5.875rem 0rem 5.875rem;
 }
 .cards {
   display: flex;
@@ -310,7 +311,7 @@ body {
 }
 .card {
   text-decoration: none;
-  flex-basis: 33%;
+  flex-basis: 33.333%;
   border: 1px solid #ebebf0;
   position: relative;
   transition: border 0.2s;
@@ -322,7 +323,7 @@ body {
   border-color: #5c8ee6;
 }
 .card-content {
-  padding: 2.5rem 3.125rem;
+  padding: 2.5rem 1rem 2.5rem 3.125rem;
 }
 .card-title {
   font-size: 1.75rem;
@@ -336,15 +337,17 @@ body {
 .card-text {
   font-size: 1rem;
   font-weight: 400;
-  line-height: 160%;
+  line-height: 163%;
   color: #828a99;
-  margin-bottom: 24.625rem;
+  margin: 0;
+  margin-bottom: 22rem;
+  padding-right: 6rem;
 }
 .card-image {
   position: absolute;
   bottom: 0;
   right: 0;
-  width: 90%;
+  width: 100%;
   z-index: 0;
 }
 .trade-marks {
@@ -363,6 +366,9 @@ body {
   padding: 3.125rem;
   transition: border 0.2s;
 }
+/* .mark {
+  flex-wrap: wrap;
+} */
 .mark:nth-child(2) {
   border-left: 0;
 }
@@ -752,9 +758,28 @@ body {
   .mark-image {
     width: 100px;
     height: 100px;
+    margin-right: 2.5rem;
+    margin-bottom: 1.25rem;
   }
   .svg-mark-image {
     width: 100px;
     height: 100px;
+  }
+  .mark {
+    flex-wrap: wrap;
+    padding: 2.4rem;
+  }
+  .mark-title {
+    word-wrap: break-word;
+    letter-spacing: -0.6px;
+  }
+  .br {
+    margin: 0;
+    line-height: 15px;
+  }
+  .mark-text {
+    font-size: 1.2rem;
+    letter-spacing: -0.2px;
+    line-height: 22px;
   }
 }
