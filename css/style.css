@@ -494,6 +494,12 @@ body {
 .clients-logo-item:hover .clients-logo {
   filter: grayscale(0);
 }
+.clients-logo-item:hover {
+  background: linear-gradient(rgba(255, 238, 0, 0.802), transparent),
+    linear-gradient(to top left, rgba(0, 255, 0, 0.716), transparent),
+    linear-gradient(to top right, rgba(0, 0, 255, 0.546), transparent);
+  background-blend-mode: screen;
+}
 @media (max-width: 1650px) {
   html {
     font-size: 14px;
