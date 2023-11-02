@@ -101,3 +101,27 @@ const secondSwiper = new Swiper("#swiper2", {
     },
   },
 });
+
+// Blog slider
+const swiperBlog = new Swiper(".blog-slider", {
+  // Optional parameters
+  speed: 400,
+  autoHeight: true,
+  direction: "horizontal",
+  spaceBetween: 30,
+  slidesPerView: 1,
+  navigation: {
+    nextEl: ".blog-button-next",
+    prevEl: ".blog-button-prev",
+  },
+  breakpoints: {
+    // when window width is >= 576px
+    576: {
+      slidesPerView: 1,
+    },
+    // // when window width is >= 768px
+    900: {
+      slidesPerView: 2,
+    },
+  },
+});
