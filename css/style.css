@@ -503,6 +503,9 @@ body {
     linear-gradient(to top right, rgba(0, 0, 255, 0.362), transparent);
   background-blend-mode: screen;
 }
+.blog {
+  margin-bottom: 14rem;
+}
 .blog-card {
   display: flex;
   position: relative;
@@ -556,32 +559,36 @@ body {
 }
 .section-cta {
   position: relative;
-  padding-top: 6.25rem;
-  margin-top: 9.375rem;
+  padding-top: 4.25rem;
   padding-bottom: 6.25rem;
 }
 .cta-image {
   position: absolute;
-  bottom: 0;
-  left: 0;
+  top: -7.8rem;
+  left: 11.5rem;
   max-width: 45rem;
-  width: 50%;
+  width: 21%;
   transform: rotate(19.728deg);
 }
 .cta-form-wrapper {
   display: flex;
   justify-content: flex-end;
+  /* padding-right: 8.5625rem; */
 }
 .cta-form {
-  max-width: 51.25rem;
+  max-width: 53.25rem;
+}
+.cta-form-title {
+  letter-spacing: 0;
+  margin-bottom: 1.4rem;
 }
 .cta-form-text {
   font-size: 1rem;
   font-weight: 400;
   line-height: 160%;
   color: #828a99;
-  margin-top: 1.375rem;
-  margin-bottom: 2.5rem;
+  margin-top: 0;
+  margin-bottom: 3.1rem;
   max-width: 40rem;
 }
 .input-group-wrapper {
@@ -591,6 +598,7 @@ body {
 .input-group {
   position: relative;
   height: 4.125rem;
+  width: 25.3rem;
   flex-grow: 1;
   background-color: #f0f2f5;
 }
@@ -620,7 +628,7 @@ body {
 }
 .input:focus ~ .input-group-label,
 .input:not(:placeholder-shown).input:not(:focus) ~ .input-group-label {
-  top: -0.5rem;
+  top: -0.4rem;
   left: 1.25rem;
   font-size: 0.625rem;
   background-color: inherit;
@@ -634,6 +642,8 @@ body {
 }
 .cta-form-button {
   flex-shrink: 0;
+  font-size: 0.9rem;
+  padding: 1.23rem 3.1rem;
 }
 .notify {
   display: flex;
