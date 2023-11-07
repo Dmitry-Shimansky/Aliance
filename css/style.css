@@ -667,7 +667,6 @@ body {
   padding-bottom: 2.5rem;
   display: flex;
   align-items: center;
-  /* justify-content: space-between; */
 }
 .footer-logo {
   width: 13rem;
@@ -801,6 +800,9 @@ body {
   .logo-svg {
     max-width: 6rem;
   }
+  .footer-logo {
+    max-width: none;
+  }
   .header-nav {
     padding-left: 2rem;
   }
@@ -882,6 +884,29 @@ body {
     left: 8rem;
     transform: rotate(19.728deg);
     width: 12%;
+  }
+  .footer-top {
+    justify-content: space-between;
+  }
+  .footer-logo {
+    padding-right: 0;
+    margin-right: 0;
+  }
+  .footer-phone {
+    font-size: 1.5rem;
+    margin-right: 0;
+  }
+  .footer-info-email {
+    margin-right: 0;
+  }
+  .footer-info-address {
+    margin-right: 0;
+  }
+  .footer-bottom {
+    justify-content: space-between;
+  }
+  .footer-menu-wrapper:last-child {
+    margin-left: 0;
   }
 }
 @media (max-width: 992px) {
@@ -1028,6 +1053,16 @@ body {
   }
   .cta-form-wrapper {
     justify-content: center;
+  }
+  .footer-top {
+    justify-content: space-around;
+    flex-flow: wrap;
+    column-gap: 1rem;
+    row-gap: 2rem;
+  }
+  .footer-menu-column-2 {
+    columns: auto auto;
+    min-width: 0;
   }
 }
 @media (max-width: 768px) {
@@ -1317,5 +1352,83 @@ body {
   }
   .blog-slider-footer {
     margin-top: 0;
+  }
+  .section-cta {
+    padding-bottom: 4.25rem;
+  }
+  .footer-top,
+  .footer-bottom,
+  .footer-wrapper,
+  .footer-legal {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .footer-top {
+    row-gap: 1.5rem;
+    padding-bottom: 1.3rem;
+  }
+  .footer-logo {
+    max-width: none;
+    width: 13.3rem;
+    height: 6.5rem;
+  }
+  .footer-phone {
+    font-size: 2.34rem;
+  }
+  .mail-icon,
+  .footer-social-icon,
+  .address-icon {
+    width: 2rem;
+    height: 2rem;
+  }
+  .footer-info-email,
+  .footer-info-address {
+    font-size: 1.16rem;
+  }
+  .footer-info {
+    gap: 0.9rem;
+  }
+  .vk {
+    margin-right: 1rem;
+  }
+  .footer-bottom {
+    padding-top: 1.9rem;
+    padding-bottom: 0;
+    gap: 1.5rem;
+  }
+  .footer-menu-title {
+    font-size: 1.2rem;
+    margin-bottom: 1.7rem;
+  }
+  .footer-menu-list {
+    padding-left: 1.7rem;
+  }
+  .footer-bottom.footer-menu-wrapper:last-child.footer-menu-list {
+    padding-left: 0;
+  }
+  .footer-menu-link {
+    font-size: 1.16rem;
+    margin-bottom: 0.8rem;
+  }
+  .footer-wrapper,
+  .footer-legal {
+    gap: 0.8rem;
+  }
+  .footer-menu-link-bold {
+    margin-bottom: 2.5rem;
+  }
+  .footer-copyright,
+  .footer-policy,
+  .made-in {
+    font-size: 1rem;
+  }
+  .footer-copyright {
+    margin: 0;
+  }
+  .footer-wrapper {
+    padding-top: 1rem;
+  }
+  .footer-legal {
+    padding-bottom: 0.1rem;
   }
 }
