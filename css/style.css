@@ -1431,4 +1431,13 @@ body {
   .footer-legal {
     padding-bottom: 0.1rem;
   }
+  .footer-bottom .footer-menu-list:nth-child(1) {
+    padding-left: 0rem;
+  }
+  .footer-bottom
+    .footer-menu-list:nth-child(1)
+    .footer-menu-item:last-child
+    .footer-menu-link-bold {
+    margin-bottom: 2.3rem;
+  }
 }
