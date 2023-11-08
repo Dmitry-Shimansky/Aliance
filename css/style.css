@@ -839,6 +839,7 @@ body {
   color: #292d33;
   margin-top: 0;
   margin-bottom: 1.25rem;
+  word-spacing: 0.2rem;
 }
 .modal-text {
   font-size: 1rem;
@@ -850,14 +851,17 @@ body {
 }
 .modal-input-group {
   background-color: #fff;
+  width: 100%;
 }
 .modal-form-footer {
-  margin-top: 1.875rem;
+  margin-top: 1.8rem;
 }
 .modal-form-button {
   display: block;
   width: 100%;
   margin-bottom: 1.5rem;
+  font-size: 0.9rem;
+  padding: 1.2rem 3.75rem;
 }
 @media (max-width: 1650px) {
   html {
