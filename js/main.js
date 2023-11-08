@@ -119,9 +119,24 @@ const swiperBlog = new Swiper(".blog-slider", {
     576: {
       slidesPerView: 1,
     },
-    // // when window width is >= 768px
+    // // when window width is >= 900px
     900: {
       slidesPerView: 2,
     },
   },
+});
+
+const modal = document.querySelector(".modal");
+const modalToggle = document.querySelectorAll("[data-toggle=modal]");
+const modalClose = document.querySelector(".modal-close");
+
+modalToggle.forEach((element) => {
+  element.addEventListener("click", (event) => {
+    event.preventDefault();
+    modal.classList.add("is-open");
+  });
+});
+modalClose.addEventListener("click", (event) => {
+  event.preventDefault();
+  modal.classList.remove("is-open");
 });
