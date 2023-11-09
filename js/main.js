@@ -6,16 +6,21 @@ const menu = document.querySelector(".mobile-menu");
 const headerButton = document.querySelector(".header-button");
 const modal = document.querySelector(".modal");
 const modalDialog = document.querySelector(".modal-dialog");
+const isFront = document.body.classList.contains("front-page");
 
 const lightModeOn = (event) => {
   navbar.classList.add("navbar-light");
-  logo.style.display = "block";
-  logoLight.style.display = "none";
+  // logo.style.display = "block";
+  // logoLight.style.display = "none";
 };
 const lightModeOff = (event) => {
   navbar.classList.remove("navbar-light");
-  logo.style.display = "none";
-  logoLight.style.display = "block";
+  // logo.style.display = "none";
+  // logoLight.style.display = "block";
+};
+
+const changeNavHeight = (height) => {
+  navbar.style.height = height;
 };
 
 // open menu function
@@ -34,8 +39,12 @@ const closeMenu = (event) => {
 };
 
 window.addEventListener("scroll", () => {
-  this.scrollY > 1 ? lightModeOn() : lightModeOff();
+  this.scrollY > 1 ? changeNavHeight("4.5rem") : changeNavHeight("5.875rem");
+  if (isFront) {
+    this.scrollY > 1 ? lightModeOn() : lightModeOff();
+  }
 });
+
 mMenuToggle.addEventListener("click", (event) => {
   event.preventDefault();
   menu.classList.contains("is-open") ? closeMenu() : openMenu();

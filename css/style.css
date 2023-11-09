@@ -34,10 +34,21 @@ body {
 .navbar-light {
   background-color: #fff;
   color: #292d33;
+}
+.navbar-light .logo-light {
+  display: none;
+}
+.navbar-light .logo-dark {
+  display: block;
+}
+.navbar-scroll {
   height: 4.5rem;
 }
 .phone-icon {
   fill: #5c8ee6;
+}
+.logo-dark {
+  display: none;
 }
 .logo {
   display: none;
@@ -503,9 +514,6 @@ body {
     linear-gradient(to top right, rgba(0, 0, 255, 0.362), transparent);
   background-blend-mode: screen;
 }
-.blog {
-  margin-bottom: 14rem;
-}
 .blog-card {
   display: flex;
   position: relative;
@@ -557,13 +565,17 @@ body {
 .bg-grey {
   background: #f0f2f5;
 }
+.cta {
+  padding-top: 14rem;
+  overflow: hidden;
+}
 .section-cta {
   position: relative;
   padding-top: 4.25rem;
   padding-bottom: 6.25rem;
 }
 .cta-image {
-  display: flex;
+  display: block;
   position: absolute;
   top: -7.8rem;
   left: 11.5rem;
@@ -1181,8 +1193,8 @@ body {
   .section-title-founder {
     padding-right: 0rem;
   }
-  .blog {
-    margin-bottom: 8.3rem;
+  .cta {
+    padding-top: 8.3rem;
   }
   .section-cta {
     padding-top: 2.5rem;
