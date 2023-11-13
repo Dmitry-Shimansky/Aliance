@@ -17,7 +17,7 @@
                   class="input"
                   placeholder=" "
                   name="username"
-                  maxlength="100"
+                  maxLength="31"
                   required
                 />
                 <label class="input-group-label" for="user-name">Имя</label>
@@ -29,7 +29,7 @@
                   class="input"
                   placeholder=" "
                   name="userphone"
-                  maxlength="30"
+                  maxLength="31"
                   required
                 />
                 <label class="input-group-label" for="user-phone"
@@ -182,3 +182,74 @@
       <!-- /.container -->
     </footer>
     <!-- /.footer -->
+    <div class="modal">
+      <div class="modal-dialog">
+        <h2 class="modal-title">Есть вопросы?</h2>
+        <a href="#" class="modal-close" data-toggle="modal">
+          <svg class="close-icon" width="24" height="24">
+            <use href="img/sprite.svg#close"></use>
+          </svg>
+        </a>
+        <p class="modal-text">
+          Оставьте заявку, наш менеджер свяжется с Вами в ближайшее время
+          ответит на все интересующие вопросы и поможем даже в самых сложных
+          случаях!
+        </p>
+        <form action="handler.php" method="POST" class="modal-form">
+          <div class="input-group-wrapper input-group-vertical">
+            <div class="input-group modal-input-group">
+              <input
+                id="modal-user-name"
+                type="text"
+                class="input modal-input"
+                placeholder=" "
+                name="username"
+                maxLength="31"
+                required
+              />
+              <label
+                class="input-group-label modal-input-label"
+                for="modal-user-name"
+                >Имя</label
+              >
+            </div>
+            <div class="input-group modal-input-group">
+              <input
+                id="modal-user-phone"
+                type="tel"
+                class="input modal-input"
+                placeholder=" "
+                name="userphone"
+                maxLength="31"
+                required
+              />
+              <label
+                class="input-group-label modal-input-label"
+                for="modal-user-phone"
+                >Номер телефона</label
+              >
+            </div>
+          </div>
+          <!-- /.input-group-wrapper -->
+          <div class="modal-form-footer">
+            <button type="submit" class="button modal-form-button">
+              Отправить заявку
+            </button>
+            <div class="notify">
+              <svg class="notify-icon" width="14" height="14">
+                <use href="img/sprite.svg#shield"></use>
+              </svg>
+              <p class="notify-text">
+                Обращаясь к нам вы получаете не только профессиональную работу,
+                но и абсолютную конфиденциальность информации!
+              </p>
+            </div>
+          </div>
+          <!-- /.modal-form-footer -->
+        </form>
+      </div>
+    </div>
+    <!-- /.modal -->
+    <script src="js/swiper-bundle.min.js"></script>
+    <script src="js/just-validate.production.min.js"></script>
+    <script src="js/main.js"></script>
