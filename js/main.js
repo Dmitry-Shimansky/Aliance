@@ -6,6 +6,7 @@ const menu = document.querySelector(".mobile-menu");
 const headerButton = document.querySelector(".header-button");
 const modal = document.querySelector(".modal");
 const modalDialog = document.querySelector(".modal-dialog");
+const modalThankyou = document.querySelector(".modal-thankyou");
 const isFront = document.body.classList.contains("front-page");
 
 const lightModeOn = (event) => {
@@ -148,10 +149,23 @@ document.addEventListener("click", (event) => {
     event.preventDefault();
     modal.classList.toggle("is-open");
   }
+  if (
+    event.target.dataset.toggle == "modal-thankyou" ||
+    event.target.parentNode.dataset.toggle == "modal-thankyou" ||
+    (!event.composedPath().includes(modalThankyou) &&
+      modalThankyou.classList.contains("is-open"))
+  ) {
+    event.preventDefault();
+    modalThankyou.classList.toggle("is-open");
+  }
 });
+// Close modal windows by keybord
 document.addEventListener("keyup", (event) => {
   if (event.key == "Escape" && modal.classList.contains("is-open")) {
     modal.classList.toggle("is-open");
+  }
+  if (event.key == "Escape" && modalThankyou.classList.contains("is-open")) {
+    modalThankyou.classList.toggle("is-open");
   }
 });
 
@@ -180,8 +194,8 @@ forms.forEach((form) => {
       },
       {
         rule: "maxLength",
-        value: 30,
-        errorMessage: "Максимально 30 символов",
+        value: 20,
+        errorMessage: "Максимально 20 символов",
       },
     ])
     .onSuccess((event) => {
@@ -194,7 +208,8 @@ forms.forEach((form) => {
         }).then((response) => {
           if (response.ok) {
             thisForm.reset();
-            alert("Форма отправлена !");
+            event.preventDefault();
+            modalThankyou.classList.toggle("is-open");
           } else {
             alert(response.statusText);
           }

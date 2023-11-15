@@ -812,7 +812,8 @@ body {
   font-size: 0.8rem;
   margin-right: 0.3rem;
 }
-.modal {
+.modal,
+.modal-thankyou {
   opacity: 0;
   visibility: hidden;
   transform: translateX(-100%);
@@ -875,6 +876,9 @@ body {
   color: #828a99;
   margin-bottom: 1.875rem;
 }
+.modal-thankyou-text {
+  margin-bottom: 2.2rem;
+}
 .modal-input-group {
   background-color: #fff;
   width: 100%;
@@ -888,6 +892,22 @@ body {
   margin-bottom: 1.5rem;
   font-size: 0.9rem;
   padding: 1.2rem 3.75rem;
+}
+.modal-thankyou-button {
+  margin-bottom: 0rem;
+}
+.modal-thankyou.is-open {
+  transform: translateX(0);
+  visibility: visible;
+  opacity: 1;
+}
+.modal-thankyou.is-open .modal-dialog {
+  transform: translateY(0);
+  opacity: 1;
+}
+.thanks-image {
+  width: 100%;
+  margin-bottom: 1.6rem;
 }
 .section-header {
   background-color: #f0f2f5;

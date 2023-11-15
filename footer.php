@@ -26,10 +26,10 @@
                 <input
                   id="user-phone"
                   type="tel"
-                  class="input"
+                  class="input tel"
                   placeholder=" "
                   name="userphone"
-                  maxLength="31"
+                  
                   required
                 />
                 <label class="input-group-label" for="user-phone"
@@ -217,10 +217,9 @@
               <input
                 id="modal-user-phone"
                 type="tel"
-                class="input modal-input"
+                class="input modal-input tel"
                 placeholder=" "
                 name="userphone"
-                maxLength="31"
                 required
               />
               <label
@@ -250,6 +249,30 @@
       </div>
     </div>
     <!-- /.modal -->
+    <div class="modal-thankyou">
+      <div class="modal-dialog">
+        <div class="modal-thankyou-image-wrapper">
+          <a href="#" class="modal-close modal-thankyou-close" data-toggle="modal-thankyou">
+            <svg class="close-icon" width="24" height="24">
+              <use href="img/sprite.svg#close"></use>
+            </svg>
+          </a>
+          <img src="img/thanks_illu.svg" alt="Thanks image" class="thanks-image">
+          <!-- <svg class="thanks-image" width="360" height="310">
+              <use href="img/sprite.svg#thanks-picture"></use>
+          </svg> -->
+        </div>
+        <h2 class="modal-title">спасибо за заявку!</h2>
+        <p class="modal-text modal-thankyou-text">
+        Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
+        </p>
+        <button class="button modal-form-button modal-thankyou-button" data-toggle="modal-thankyou">
+              Вернуться на главную
+            </button>
+      </div>
+    </div>
+    <!-- /.modal-thankyou -->
     <script src="js/swiper-bundle.min.js"></script>
     <script src="js/just-validate.production.min.js"></script>
+    <script src="js/phone-validation.js"></script>
     <script src="js/main.js"></script>
