@@ -4,9 +4,6 @@ const logo = document.querySelector(".logo");
 const mMenuToggle = document.querySelector(".mobile-menu-toggle");
 const menu = document.querySelector(".mobile-menu");
 const headerButton = document.querySelector(".header-button");
-const modal = document.querySelector(".modal");
-const modalDialog = document.querySelector(".modal-dialog");
-const modalThankyou = document.querySelector(".modal-thankyou");
 const isFront = document.body.classList.contains("front-page");
 
 const lightModeOn = (event) => {
@@ -138,34 +135,37 @@ const swiperBlog = new Swiper(".blog-slider", {
   },
 });
 
+let currentModal; // Current modal window
+let modalDialog; // White dialog window
+let alertModal = document.querySelector("#alert-modal"); // Window with alert
+const modalButtons = document.querySelectorAll("[data-toggle=modal]"); // Switchers for modal windows
+
 //Modal window open/close
-document.addEventListener("click", (event) => {
-  if (
-    event.target.dataset.toggle == "modal" ||
-    event.target.parentNode.dataset.toggle == "modal" ||
-    (!event.composedPath().includes(modalDialog) &&
-      modal.classList.contains("is-open"))
-  ) {
-    event.preventDefault();
-    modal.classList.toggle("is-open");
-  }
-  if (
-    event.target.dataset.toggle == "modal-thankyou" ||
-    event.target.parentNode.dataset.toggle == "modal-thankyou" ||
-    (!event.composedPath().includes(modalThankyou) &&
-      modalThankyou.classList.contains("is-open"))
-  ) {
-    event.preventDefault();
-    modalThankyou.classList.toggle("is-open");
-  }
+modalButtons.forEach((button) => {
+  /*Catch event click*/
+  button.addEventListener("click", (event) => {
+    event.preventDefault(); // Decline default behavior
+    /*Clarify wich window is open*/
+    currentModal = document.querySelector(button.dataset.target);
+    /*Open current window */
+    currentModal.classList.toggle("is-open");
+    /*Assign dialog window */
+    modalDialog = currentModal.querySelector(".modal-dialog");
+    /*Tracking clicks to the window and outside */
+    currentModal.addEventListener("click", (event) => {
+      /*If click outside the window */
+      if (!event.composedPath().includes(modalDialog)) {
+        /*Close dialog window */
+        currentModal.classList.remove("is-open");
+      }
+    });
+  });
 });
+
 // Close modal windows by keybord
 document.addEventListener("keyup", (event) => {
-  if (event.key == "Escape" && modal.classList.contains("is-open")) {
-    modal.classList.toggle("is-open");
-  }
-  if (event.key == "Escape" && modalThankyou.classList.contains("is-open")) {
-    modalThankyou.classList.toggle("is-open");
+  if (event.key == "Escape" && currentModal.classList.contains("is-open")) {
+    currentModal.classList.toggle("is-open");
   }
 });
 
@@ -208,8 +208,16 @@ forms.forEach((form) => {
         }).then((response) => {
           if (response.ok) {
             thisForm.reset();
-            event.preventDefault();
-            modalThankyou.classList.toggle("is-open");
+            console.log(currentModal);
+            currentModal.classList.remove("is-open");
+            alertModal.classList.add("is-open");
+            currentModal = alertModal;
+            modalDialog = currentModal.querySelector(".modal-dialog");
+            currentModal.addEventListener("click", (event) => {
+              if (!event.composedPath().includes(modalDialog)) {
+                currentModal.classList.remove("is-open");
+              }
+            });
           } else {
             alert(response.statusText);
           }

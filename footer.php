@@ -182,10 +182,10 @@
       <!-- /.container -->
     </footer>
     <!-- /.footer -->
-    <div class="modal">
+    <div class="modal" id="feedback-modal">
       <div class="modal-dialog">
         <h2 class="modal-title">Есть вопросы?</h2>
-        <a href="#" class="modal-close" data-toggle="modal">
+        <a href="#" class="modal-close" data-toggle="modal" data-target="#feedback-modal">
           <svg class="close-icon" width="24" height="24">
             <use href="img/sprite.svg#close"></use>
           </svg>
@@ -249,10 +249,10 @@
       </div>
     </div>
     <!-- /.modal -->
-    <div class="modal-thankyou">
+    <div class="modal" id="alert-modal">
       <div class="modal-dialog">
         <div class="modal-thankyou-image-wrapper">
-          <a href="#" class="modal-close modal-thankyou-close" data-toggle="modal-thankyou">
+          <a href="#" class="modal-close modal-thankyou-close" data-toggle="modal" data-target="#alert-modal">
             <svg class="close-icon" width="24" height="24">
               <use href="img/sprite.svg#close"></use>
             </svg>
@@ -266,7 +266,7 @@
         <p class="modal-text modal-thankyou-text">
         Наш менеджер свяжется с Вами в ближайшее время ответит на все интересующие вопросы и поможем даже в самых сложных случаях!
         </p>
-        <button class="button modal-form-button modal-thankyou-button" data-toggle="modal-thankyou">
+        <button class="button modal-form-button modal-thankyou-button" data-toggle="modal" data-target="#alert-modal">
               Вернуться на главную
             </button>
       </div>

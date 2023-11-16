@@ -138,7 +138,7 @@
         >
       </div>
       <!-- /.header-phone -->
-      <button class="header-button button" data-toggle="modal">
+      <button class="header-button button" data-toggle="modal" data-target="#feedback-modal">
         <svg class="phone-icon" width="16" height="17">
           <use href="img/sprite.svg#phone"></use>
         </svg>
