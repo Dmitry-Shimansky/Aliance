@@ -965,6 +965,42 @@ body {
 .about .bred-crumbs-item:last-child {
   color: #292d33;
 }
+.seo-section {
+  padding-top: 4.5rem;
+}
+.contracts-title {
+  font-size: 1.75rem;
+  font-weight: 400;
+  line-height: 160%;
+  color: #292d33;
+  margin-bottom: 0.5rem;
+}
+.contracts-text {
+  font-size: 1.03rem;
+  font-weight: 400;
+  line-height: 160%;
+  color: #828a99;
+  margin: 0;
+  margin-bottom: 1.3rem;
+}
+.contracts-button-link {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 160%;
+  color: #5c8ee5;
+}
+.contracts-button-link:hover .contracts-img {
+  transform: rotate(135deg);
+}
+.contracts-img {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-right: 1rem;
+  transition: transform 0.5s;
+}
 @media (max-width: 1650px) {
   html {
     font-size: 14px;

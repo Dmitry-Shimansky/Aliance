@@ -117,16 +117,16 @@
           <a href="./about.php" class="header-nav-link">О компании</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Контрактное производство</a>
+          <a href="./contracts.php" class="header-nav-link">Контрактное производство</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Собственные торговые марки</a>
+          <a href="./trademarks.php" class="header-nav-link">Собственные торговые марки</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Новости</a>
+          <a href="./news.php" class="header-nav-link">Новости</a>
         </li>
         <li class="header-nav-item">
-          <a href="#" class="header-nav-link">Контакты</a>
+          <a href="./contacts.php" class="header-nav-link">Контакты</a>
         </li>
       </ul>
       <div class="header-phone">
@@ -284,145 +284,13 @@
       <!-- /.container -->
     </section>
     <!-- /.section section-light -->
-    <section class="section-production">
-      <div class="container">
-        <div class="separator"></div>
-        <h2 class="section-title">контрактное производство</h2>
-        <div class="cards">
-          <a href="#" class="card">
-            <div class="card-content">
-              <h3 class="card-title">Автомобильная химия</h3>
-              <p class="card-text">
-                Безусловно, сплочённость команды профессионалов позволяет
-                оценить значение форм воздействия.
-              </p>
-            </div>
-            <!-- /.card-content -->
-            <img
-              src="img/avto-himija.png"
-              alt="Автомобильная химия"
-              class="card-image"
-            />
-          </a>
-          <a href="#" class="card">
-            <div class="card-content">
-              <h3 class="card-title">Бытовая химия</h3>
-              <p class="card-text">
-                А также стремящиеся вытеснить традиционное производство,
-                нанотехнологии функционально разнесены на независимые элементы.
-              </p>
-            </div>
-            <!-- /.card-content -->
-            <img
-              src="img/bitovaja-himija.png"
-              alt="Бытовая химия"
-              class="card-image"
-            />
-          </a>
-          <a href="#" class="card">
-            <div class="card-content">
-              <h3 class="card-title">Дезинфицирующие средства</h3>
-              <p class="card-text">
-                Лишь интерактивные прототипы призваны к ответу.
-              </p>
-            </div>
-            <!-- /.card-content -->
-            <img
-              src="img/dezinficiryuchie-sredstva.png"
-              alt="Дезинфицирующие средства"
-              class="card-image"
-            />
-          </a>
-          <a href="#" class="card">
-            <div class="card-content">
-              <h3 class="card-title">Пищевые аэрозоли</h3>
-              <p class="card-text">
-                Безусловно, сплочённость команды профессионалов позволяет
-                оценить значение форм воздействия.
-              </p>
-            </div>
-            <!-- /.card-content -->
-            <img
-              src="img/pischevye-aerozoli.png"
-              alt="Пищевые аэрозоли"
-              class="card-image"
-            />
-          </a>
-          <a href="#" class="card">
-            <div class="card-content">
-              <h3 class="card-title">Косметическая продукция</h3>
-              <p class="card-text">
-                Лишь интерактивные прототипы призваны к ответу.
-              </p>
-            </div>
-            <!-- /.card-content -->
-            <img
-              src="img/kosmeticheskaia-produkcia.png"
-              alt="Косметическая продукция"
-              class="card-image"
-            />
-          </a>
-          <a href="#" class="card">
-            <div class="card-content">
-              <h3 class="card-title">Краски аэрозольные</h3>
-              <p class="card-text">
-                А также стремящиеся вытеснить традиционное производство,
-                нанотехнологии функционально разнесены на независимые элементы.
-              </p>
-            </div>
-            <!-- /.card-content -->
-            <img
-              src="img/kraski-aerozolnie.png"
-              alt="Краски аэрозольные"
-              class="card-image"
-            />
-          </a>
-        </div>
-        <!-- /.cards -->
-      </div>
-      <!-- /.container -->
-    </section>
+    <?php 
+    $block_title = 'контрактное производство';
+    include_once('./template-parts/section-production-block.php')?>
     <!-- /.section production -->
-    <section class="trade-marks">
-      <div class="container">
-        <div class="separator"></div>
-        <h2 class="section-title">
-          собственные <span class="trade-word">торговые</span> марки
-        </h2>
-        <div class="marks">
-          <a href="#" class="mark">
-            <div class="mark-image">
-              <svg class="svg-mark-image">
-                <use href="img/sprite.svg#AGTECH"></use>
-              </svg>
-            </div>
-            <h3 class="mark-title">Автохимия AG-Tech</h3>
-            <p class="mark-text">
-              Для современного мира разбавленное изрядной долей эмпатии,
-              рациональное мышление создаёт предпосылки для поставленных
-              обществом задач.
-            </p>
-          </a>
-          <!-- /.mark -->
-          <a href="#" class="mark">
-            <div class="mark-image">
-              <svg class="svg-mark-image">
-                <use href="img/sprite.svg#AP"></use>
-              </svg>
-            </div>
-            <h3 class="mark-title">Автохимия AP</h3>
-            <p class="mark-text">
-              Для современного мира разбавленное изрядной долей эмпатии,
-              рациональное мышление создаёт предпосылки для поставленных
-              обществом задач.
-            </p>
-          </a>
-          <!-- /.mark -->
-        </div>
-        <!-- /.marks -->
-      </div>
-      <!-- /.container -->
-    </section>
+    <?php 
+    $block_title = 'собственные <span class="trade-word">торговые</span> марки';
+    include_once('./template-parts/trademarks-block.php')?>
     <!-- /.trade-marks -->
     <section class="section founder">
       <img src="img/founder.jpg" alt="founder" class="founder-photo" />
@@ -678,5 +546,3 @@
     </section>
     <!-- /.section blog -->
     <?php include_once('footer.php');?>
-  </body>
-</html>
