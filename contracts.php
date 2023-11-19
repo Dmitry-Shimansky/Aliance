@@ -11,7 +11,7 @@ include_once('header-page.php');?>
   </p>
   <a href="#" class="contracts-button-link">
     <img src="img/load.svg" alt="Load arrow" class="contracts-img">
-    Читать больше
+    <p class="contracts-button-text">Читать больше</p>
   </a>
   </div>
 </section>

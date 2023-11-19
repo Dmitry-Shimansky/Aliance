@@ -1001,6 +1001,13 @@ body {
   margin-right: 1rem;
   transition: transform 0.5s;
 }
+.contracts-button-text {
+  margin: 0;
+  transition: letter-spacing 0.5s;
+}
+.contracts-button-link:hover .contracts-button-text {
+  letter-spacing: 0.2rem;
+}
 @media (max-width: 1650px) {
   html {
     font-size: 14px;
