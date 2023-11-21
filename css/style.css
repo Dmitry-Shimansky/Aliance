@@ -297,7 +297,7 @@ body {
   padding-right: 1.875rem;
 }
 .button-link {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   text-decoration: none;
   font-size: 1rem;
@@ -496,6 +496,7 @@ body {
   align-items: center;
   justify-content: center;
   padding: 2.75rem 1rem;
+  transition: all 0.4s linear;
 }
 .clients-logo {
   max-width: 100%;
@@ -509,10 +510,12 @@ body {
   filter: grayscale(0);
 }
 .clients-logo-item:hover {
-  background: linear-gradient(rgba(255, 238, 0, 0.447), transparent),
+  /* background: linear-gradient(rgba(255, 238, 0, 0.447), transparent),
     linear-gradient(to top left, rgba(0, 255, 0, 0.43), transparent),
     linear-gradient(to top right, rgba(0, 0, 255, 0.362), transparent);
-  background-blend-mode: screen;
+  background-blend-mode: screen; */
+  background: linear-gradient(rgba(255, 238, 0, 0.447), transparent);
+  transform: scale(1.2);
 }
 .blog-card {
   display: flex;
@@ -1037,6 +1040,94 @@ body {
 }
 .contacts-vk {
   margin-right: 0.5rem;
+}
+.experts {
+  min-height: 41.25rem;
+  padding-top: 6.2rem;
+}
+.experts-photo {
+  width: 30rem;
+  height: 30rem;
+}
+.experts-content-wraper {
+  display: flex;
+  gap: 7.5rem;
+  margin-bottom: 6.3rem;
+}
+.experts-content {
+  padding-top: 3.2rem;
+}
+.experts-title-founder {
+  padding-right: 20.625rem;
+  margin-bottom: 1.3rem;
+}
+.experts-text {
+  margin: 0;
+  margin-bottom: 1.4375rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  color: #828a99;
+}
+.expert-feature-item {
+  border: 1px solid #ebebf0;
+}
+.expert-feature-text {
+  color: #292d33;
+}
+.our-production {
+  min-height: 41.25rem;
+  padding-top: 9.3rem;
+}
+.our-production-content-wraper {
+  display: flex;
+  gap: 7.5rem;
+  margin-bottom: 0.3rem;
+}
+.our-production-content {
+  padding-top: 3.2rem;
+}
+.our-production-title {
+  margin-bottom: 1.3rem;
+}
+.our-production-text {
+  margin: 0;
+  margin-bottom: 1.4375rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  color: #828a99;
+}
+.our-production-text:nth-last-child(2) {
+  margin-bottom: 1.8rem;
+}
+.oour-production-photo {
+  width: 30rem;
+  height: 30rem;
+}
+.research {
+  min-height: 41.25rem;
+  padding-top: 9.3rem;
+}
+.research-content {
+  padding-top: 3.8rem;
+}
+.research-title {
+  margin-bottom: 1.3rem;
+  width: 40rem;
+}
+.research-text-wrapper {
+  display: flex;
+  gap: 6.25rem;
+}
+.research-text {
+  margin: 0;
+  margin-bottom: 1.4375rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  color: #828a99;
+  width: 39.6875rem;
 }
 @media (max-width: 1650px) {
   html {
