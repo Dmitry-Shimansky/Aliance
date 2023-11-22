@@ -457,6 +457,9 @@ body {
 .clients {
   padding-top: 13.1rem;
 }
+.clients-about-page {
+  padding-top: 9.3rem;
+}
 .clients-wraper {
   display: flex;
   gap: 1rem;
@@ -1111,6 +1114,7 @@ body {
 }
 .research-content {
   padding-top: 3.8rem;
+  padding-bottom: 1.9rem;
 }
 .research-title {
   margin-bottom: 1.3rem;
@@ -1128,6 +1132,22 @@ body {
   line-height: 160%;
   color: #828a99;
   width: 39.6875rem;
+}
+.display-none {
+  display: none;
+}
+.blog-slider-research {
+  justify-content: flex-end;
+}
+.blog-card-research {
+  display: flex;
+  position: relative;
+  min-height: 25rem;
+  flex-direction: column;
+  text-decoration: none;
+  color: #fff;
+  justify-content: flex-end;
+  padding: 3.125rem;
 }
 @media (max-width: 1650px) {
   html {

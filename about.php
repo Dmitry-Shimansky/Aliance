@@ -98,8 +98,16 @@ include_once('header-page.php');?>
           </p>
         </div>
       </div>
+      <?php 
+      $display = "display-none";
+      $display_blog_link = "display-none";
+      $buttons_block = "blog-slider-research";
+      $blog_card = "blog-card-research";
+      include_once('./template-parts/blog-slider-block.php');?>
   </div>
 </section>
 <!-- /.section research -->
-<?php include_once('./template-parts/clients-block.php');?>
+<?php 
+$clients_about = "clients-about-page";
+include_once('./template-parts/clients-block.php');?>
 <?php include_once('footer.php');?>
