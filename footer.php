@@ -1,5 +1,10 @@
 <section class="cta">
       <div class="bg-grey section-cta">
+        <!-- <picture class="cta-image">
+          <source type="image/webp" srcset="img/cta.webp">
+          <source type="image/jpeg" srcset="img/cta.jpeg">
+          <img src="img/cta.jpeg" alt="call to action" >
+        </picture> -->
         <img src="img/cta.png" alt="call to action" class="cta-image" />
         <div class="container cta-form-wrapper">
           <form action="handler.php" method="POST" class="cta-form">

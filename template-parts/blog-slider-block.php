@@ -3,7 +3,13 @@
   <div class="swiper-wrapper">
     <!-- Slides -->
     <a href="#" class="swiper-slide <?=$blog_card?>"
-      ><img
+      >
+        <!-- <picture class="blog-card-image">
+          <source type="image/webp" srcset="img/blog/blog-photo-1.webp">
+          <source type="image/jpeg" srcset="img/blog/blog-photo-1.jpeg">
+          <img src="img/blog/blog-photo-1.jpeg" alt="blog-photo-1" >
+        </picture> -->
+        <img
         src="img/blog/blog-photo-1.jpeg"
         alt="blog-photo-1"
         class="blog-card-image"
@@ -18,11 +24,17 @@
       </p></a
     >
     <a href="#" class="swiper-slide <?=$blog_card?>"
-      ><img
+      >
+      <img
         src="img/blog/blog-photo-2.jpeg"
         alt="blog-photo-2"
         class="blog-card-image"
       />
+      <!-- <picture class="blog-card-image">
+        <source type="image/webp" srcset="img/blog/blog-photo-2.webp">
+        <source type="image/jpeg" srcset="img/blog/blog-photo-2.jpeg">
+        <img src="img/blog/blog-photo-2.jpeg" alt="blog-photo-2" >
+      </picture> -->
       <h3 class="blog-card-title <?=$display?>">
         Сложно сказать, почему жизнь прекрасна
       </h3>
@@ -33,11 +45,17 @@
       </p></a
     >
     <a href="#" class="swiper-slide <?=$blog_card?>"
-      ><img
+      >
+      <img
         src="img/blog/blog-photo-2.jpeg"
         alt="blog-photo-3"
         class="blog-card-image"
       />
+      <!-- <picture class="blog-card-image">
+        <source type="image/webp" srcset="img/blog/blog-photo-2.webp">
+        <source type="image/jpeg" srcset="img/blog/blog-photo-2.jpeg">
+        <img src="img/blog/blog-photo-2.jpeg" alt="blog-photo-3" >
+      </picture> -->
       <h3 class="blog-card-title <?=$display?>">
         Сложно сказать, почему жизнь прекрасна
       </h3>

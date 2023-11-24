@@ -5,7 +5,12 @@ include_once('header-page.php');?>
 <section class="section experts">
   <div class="container">
     <div class="experts-content-wraper">
-      <img src="img/group_57.png" alt="experts" class="experts-photo" />
+      <picture class="experts-photo">
+        <source type="image/webp" srcset="img/group_57.webp">
+        <source type="image/png" srcset="img/group_57.png">
+        <img src="img/group_57.png" alt="experts" >
+      </picture>
+      <!-- <img src="img/group_57.png" alt="experts" class="experts-photo" /> -->
       <div class="experts-content">
         <div class="separator"></div>
         <h2 class="section-title experts-title-founder">
@@ -76,7 +81,12 @@ include_once('header-page.php');?>
           </li>
         </ul>
       </div>
-      <img src="img/our-production.png" alt="our-production" class="our-production-photo" />
+      <picture class="our-production-photo">
+        <source type="image/webp" srcset="img/our-production.webp">
+        <source type="image/png" srcset="img/our-production.png">
+        <img src="img/our-production.png" alt="our-production" >
+      </picture>
+      <!-- <img src="img/our-production.png" alt="our-production" class="our-production-photo" /> -->
     </div>
   </div>
 </section>

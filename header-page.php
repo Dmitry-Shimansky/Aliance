@@ -158,11 +158,16 @@
               <a href="#" class="bred-crumbs-item"><?= $page_title ?></a>
             </div>
           </div>
-          <img
+          <picture class="section-header-image">
+            <source type="image/webp" srcset="img/avto-him.webp">
+            <source type="image/jpeg" srcset="img/avto-him.jpeg">
+            <img src="img/avto-him.jpeg" alt="Ballon" >
+          </picture>
+          <!-- <img
             src="img/avto-him.png"
             alt="Ballon"
             class="section-header-image"
-          />
+          /> -->
         </div>
       </div>
     </section>
