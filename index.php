@@ -246,4 +246,6 @@
     $blog_card = "blog-card";
     include_once('./template-parts/blog-block.php')?>
     <!-- /.section blog -->
-    <?php include_once('footer.php');?>
+    <?php 
+    $display_none = "cta";
+    include_once('footer.php');?>

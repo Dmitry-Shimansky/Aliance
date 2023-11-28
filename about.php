@@ -120,4 +120,6 @@ include_once('header-page.php');?>
 <?php 
 $clients_about = "clients-about-page";
 include_once('./template-parts/clients-block.php');?>
-<?php include_once('footer.php');?>
+<?php 
+$display_none = "cta";
+include_once('footer.php');?>

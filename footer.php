@@ -1,4 +1,4 @@
-<section class="cta <?= $display_none; ?>">
+<section class="<?= $display_none; ?>">
       <div class="bg-grey section-cta">
         <!-- <picture class="cta-image">
           <source type="image/webp" srcset="img/cta.webp">
@@ -63,7 +63,7 @@
     </section>
     <!-- /.cta -->
     <footer class="footer">
-    <?php if (!empty($display_none)) {
+    <?php if ($display_none == "display-none") {
       echo '<hr color="#ebebf0" class="footer-seporator" />';
     };?>
       <div class="container">

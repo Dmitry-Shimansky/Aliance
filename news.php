@@ -8,4 +8,6 @@ $blog_card = "blog-card";
 $display_blog_link = "display-none";
 $buttons_block = "blog-slider-research";
 include_once('./template-parts/blog-block.php')?>
-<?php include_once('footer.php');?>
+<?php 
+$display_none = "cta";
+include_once('footer.php');?>

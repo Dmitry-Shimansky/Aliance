@@ -47,4 +47,6 @@ include_once('header-page.php');?>
         <!-- <img src="img/map.png" alt="Map" class="contacts-map"> -->
       </div>
       </section>
-<?php include_once('footer.php');?>
+<?php 
+$display_none = "cta";
+include_once('footer.php');?>

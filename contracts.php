@@ -17,4 +17,6 @@ include_once('header-page.php');?>
   </a>
   </div>
 </section>
-<?php include_once('footer.php');?>
+<?php 
+$display_none = "cta";
+include_once('footer.php');?>
