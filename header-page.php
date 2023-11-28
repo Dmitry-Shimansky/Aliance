@@ -13,6 +13,7 @@
     <link rel="stylesheet" href="css/normalize.css" />
     <link rel="stylesheet" href="css/style.css" />
     <title><?php echo $page_title ?> - Aliance Production</title>
+    <link rel="icon" href="img/favicon/favicon.png" size="any">
   </head>
   <body class="about">
     <div class="mobile-menu">
