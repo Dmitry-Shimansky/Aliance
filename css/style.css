@@ -976,7 +976,7 @@ body {
   margin-right: 0.6rem;
   margin-top: 0.7rem;
 }
-.about .bred-crumbs-item:last-child {
+.bred-crumbs-item:hover {
   color: #292d33;
 }
 .seo-section {
