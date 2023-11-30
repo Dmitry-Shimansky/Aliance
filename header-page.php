@@ -156,10 +156,17 @@
             <div class="bread-crumbs-wrapper">
               <a href="#" class="bred-crumbs-item">Главная</a>
               <div class="bred-crumbs-separator"></div>
+              <?php 
+              if ($bred_crumbs_item == "Контрактное производство") {
+                echo '
+                  <a href="./contracts.php" class="bred-crumbs-item">' . $bred_crumbs_item . '</a>
+                  <div class="bred-crumbs-separator"></div>
+                ';
+              }?>
               <a href="#" class="bred-crumbs-item"><?= $page_title ?></a>
             </div>
           </div>
-          <picture class="section-header-image">
+          <picture class="<?= $display_none ?>">
             <source type="image/webp" srcset="img/avto-him.webp">
             <source type="image/jpeg" srcset="img/avto-him.jpeg">
             <img src="img/avto-him.jpeg" alt="Ballon" >

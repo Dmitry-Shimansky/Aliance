@@ -937,7 +937,6 @@ body {
   max-width: 75rem;
 }
 .section-header-image {
-  display: none;
   position: absolute;
   bottom: 0;
   right: 0;
@@ -1086,7 +1085,8 @@ body {
 .expert-feature-text {
   color: #292d33;
 }
-.our-production {
+.our-production,
+.auto-chemistry-production {
   min-height: 41.25rem;
   padding-top: 9.3rem;
 }
@@ -1169,6 +1169,62 @@ body {
   color: #292d33;
   margin: 0;
   margin-bottom: 1.4rem;
+}
+.auto-chemistry-photo {
+  height: 46.875rem;
+  width: 37.5rem;
+  object-fit: cover;
+}
+.auto-chemistry-title {
+  padding-right: 9rem;
+  margin-bottom: 1.3rem;
+}
+.autochemistry-types {
+  padding-top: 3.5rem;
+}
+.autochemistry-types-content {
+  padding-top: 0;
+}
+.autochemistry-types-text {
+  margin: 0;
+  margin-bottom: 3.2rem;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  color: #828a99;
+  padding-right: 36rem;
+}
+.autochemistry-types-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  columns: 4 auto;
+  max-width: 89rem;
+}
+.autochemistry-types-list-item {
+  display: flex;
+  align-items: top;
+  gap: 1.25rem;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 160%;
+  color: #292d33;
+  margin-bottom: 1.25rem;
+  width: 18rem;
+}
+.autochemistry-types-list-item::before {
+  content: "";
+  height: 0.14rem;
+  background: #5c8ee5;
+  width: 15px;
+  margin-top: 15px;
+}
+.autochemistry-types-research {
+  padding-top: 4.9rem;
+}
+.autochemistry-types-clients {
+  padding-top: 7.6rem;
 }
 @media (max-width: 1650px) {
   html {

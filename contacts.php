@@ -1,6 +1,7 @@
 <?php 
 $page_title = "Контакты";
 $header_style = "section-header";
+$display_none = "display-none";
 include_once('header-page.php');?>
 <section class="section contacts-section">
       <div class="container">

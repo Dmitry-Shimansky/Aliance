@@ -1,6 +1,7 @@
 <?php 
 $page_title = "Новости";
 $header_style = "section-header";
+$display_none = "display-none";
 include_once('header-page.php');?>
 <?php 
 $block_title = "Так же вас может заинтересовать:";

@@ -1,6 +1,7 @@
 <?php 
 $page_title = "Контрактное производство";
 $header_style = "section-header";
+$display_none = "display-none";
 include_once('header-page.php');?>
 <?php include_once('./template-parts/section-production-block.php');?>
 <section class="section seo-section">
