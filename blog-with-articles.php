@@ -3,8 +3,8 @@ $page_title = "Блог";
 $header_style = "section-header";
 $display_none = "display-none";
 include_once('header-page.php');?>
-<section class="section blog-page">
-  <div class="container">
+<!-- <section class="section blog-page">
+  <div class="container"> -->
 
     <div class="swiper mySwiper">
       <div class="swiper-wrapper">
@@ -20,8 +20,8 @@ include_once('header-page.php');?>
       </div>
       <div class="swiper-pagination"></div>
     </div>
-  </div>
-</section>
+  <!-- </div>
+</section> -->
 <?php 
 $display_none = "cta";
 include_once('footer.php');?>
