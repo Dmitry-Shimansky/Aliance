@@ -1226,6 +1226,22 @@ body {
 .autochemistry-types-clients {
   padding-top: 7.6rem;
 }
+.blog-page-slider {
+  margin-bottom: 5rem;
+}
+.blog-slider-wraper {
+}
+.swaiper-pagination-wrapper {
+}
+.blog-slider-pagination {
+  position: relative;
+  margin-top: 15px;
+}
+.test-card {
+  width: 18.75rem;
+  height: 9.375rem;
+  border: 1px solid black;
+}
 @media (max-width: 1650px) {
   html {
     font-size: 14px;

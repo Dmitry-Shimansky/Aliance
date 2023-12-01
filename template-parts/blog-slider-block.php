@@ -67,7 +67,7 @@
     </a>
   </div>
   <div class="blog-slider-footer <?=$buttons_block?>">
-    <a href="#" class="button-link <?=$display_blog_link?>">Весь блог</a>
+    <a href="./blog.php" class="button-link <?=$display_blog_link?>">Весь блог</a>
     <div class="blog-buttons primary-buttons-wrapper">
       <div class="blog-button-prev primary-button-prev">
         <svg width="30" height="24">

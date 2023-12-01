@@ -135,6 +135,47 @@ const swiperBlog = new Swiper(".blog-slider", {
   },
 });
 
+// Blog page slider
+const swiperBlogPage = new Swiper(".blog-page-slider", {
+  // Optional parameters
+  speed: 400,
+  autoHeight: true,
+  direction: "horizontal",
+  slidesPerView: 2,
+  grid: {
+    row: 5,
+  },
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    type: "custom",
+    clickable: true,
+  },
+  // breakpoints: {
+  //   // when window width is >= 576px
+  //   576: {
+  //     slidesPerView: 1,
+  //   },
+  //   // // when window width is >= 900px
+  //   900: {
+  //     slidesPerView: 2,
+  //   },
+  // },
+});
+
+const swiperTest = new Swiper(".mySwiper", {
+  slidesPerView: 2,
+  grid: {
+    rows: 2,
+  },
+  spaceBetween: 30,
+  pagination: {
+    el: ".swiper-pagination",
+    type: "bullet",
+    clickable: true,
+  },
+});
+
 let currentModal; // Current modal window
 let modalDialog; // White dialog window
 let alertModal = document.querySelector("#alert-modal"); // Window with alert
