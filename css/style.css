@@ -208,7 +208,7 @@ body {
 }
 .header-feature-item {
   padding: 1.875rem 3.125rem;
-  height: 100% !important;
+  height: 100%;
   width: 18rem;
   border: 1px solid rgba(235, 235, 240, 0.2);
 }
@@ -1226,21 +1226,91 @@ body {
 .autochemistry-types-clients {
   padding-top: 7.6rem;
 }
-.blog-page-slider {
-  margin-bottom: 5rem;
+.blog-page {
+  padding-top: 6.3rem;
 }
-.blog-slider-wraper {
-}
-.swaiper-pagination-wrapper {
+.swiper-wrapper {
+  height: 132.5rem;
 }
 .blog-slider-pagination {
+  display: flex;
+  /* justify-content: end; */
   position: relative;
   margin-top: 15px;
+  gap: 2.2rem;
+  border: 1px dotted #5c8ee5;
+  padding: 0;
 }
-.test-card {
-  width: 18.75rem;
-  height: 9.375rem;
-  border: 1px solid black;
+.pagination-buttons-wrapper {
+  display: flex;
+  justify-content: end;
+}
+.pagination-buttons {
+  display: flex;
+  gap: 2.2rem;
+  border: 1px dotted #5c8ee5;
+  padding: 0;
+}
+.pagination-button:first-child {
+  list-style-type: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  color: #5c8ee5;
+  padding: 0.7rem 1.2rem;
+  border: 1px solid #5c8ee5;
+}
+.pagination-button {
+  list-style-type: none;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  color: #292d33;
+  padding: 0.7rem 0rem;
+}
+.pagination-button:first-child,
+.pagination-button:last-child {
+  padding-right: 1.2rem;
+}
+.pagination-bullets-wrapper {
+  display: flex;
+  justify-content: end;
+  margin-top: 2.6rem;
+}
+.blog-slider-pagination {
+  display: flex;
+  position: relative;
+  gap: 2.2rem;
+  border: 1px dotted #5c8ee5;
+  padding: 0;
+  width: auto !important;
+}
+.pagination-bullet {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  color: #292d33;
+  padding: 0.7rem 0rem;
+  cursor: pointer;
+}
+.pagination-bullet:first-child {
+  padding-left: 1.2rem;
+}
+.pagination-bullet:last-child {
+  padding-right: 1.2rem;
+}
+.pagination-bullet-active {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+  color: #5c8ee5;
+  padding: 0.7rem 1.2rem;
+  border: 1px solid #5c8ee5;
+  cursor: pointer;
 }
 @media (max-width: 1650px) {
   html {
