@@ -27,6 +27,9 @@ include_once('header-page.php'); ?>
     <?php
     $swiper_feature_item = "expert-feature-item";
     $swiper_features_text = "expert-feature-text";
+    $slider_button = "expert-slider-button";
+    $arrow_prev_color = "arrow-prev-black";
+    $arrow_next_color = "arrow-next-black";
     include_once('./template-parts/main-slider-block.php'); ?>
   </div>
 </section>

@@ -226,6 +226,14 @@ body {
   justify-content: center;
   cursor: pointer;
 }
+.arrow-prev-white,
+.arrow-next-white {
+  fill: white;
+}
+.arrow-prev-black,
+.arrow-next-black {
+  fill: #292d33;
+}
 .primary-buttons-wrapper {
   display: flex;
   height: 60px;
@@ -1097,6 +1105,7 @@ body {
   line-height: 160%;
   color: #828a99;
 }
+.expert-slider-button,
 .expert-feature-item {
   border: 1px solid #ebebf0;
 }
