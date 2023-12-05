@@ -2,7 +2,7 @@
   <!-- Additional required wrapper -->
   <div class="swiper-wrapper">
     <!-- Slides -->
-    <a href="#" class="swiper-slide <?=$blog_card?>"
+    <a href="./blog-with-articles.php" class="swiper-slide <?=$blog_card?>"
       >
         <!-- <picture class="blog-card-image">
           <source type="image/webp" srcset="img/blog/blog-photo-1.webp">
@@ -23,7 +23,7 @@
         предоставлены...
       </p></a
     >
-    <a href="#" class="swiper-slide <?=$blog_card?>"
+    <a href="./blog-with-articles.php" class="swiper-slide <?=$blog_card?>"
       >
       <img
         src="img/blog/blog-photo-2.jpeg"
@@ -44,7 +44,7 @@
         высокотехнологичная...
       </p></a
     >
-    <a href="#" class="swiper-slide <?=$blog_card?>"
+    <a href="./blog-with-articles.php" class="swiper-slide <?=$blog_card?>"
       >
       <img
         src="img/blog/blog-photo-2.jpeg"

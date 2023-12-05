@@ -1,10 +1,10 @@
-<a href="#" class="swiper-slide blog-card">
+<a href="./blog-with-articles.php" class="swiper-slide blog-card">
     <!-- <picture class="blog-card-image">
       <source type="image/webp" srcset="img/blog/blog-photo-1.webp">
       <source type="image/jpeg" srcset="img/blog/blog-photo-1.jpeg">
       <img src="img/blog/blog-photo-1.jpeg" alt="blog-photo-1" >
     </picture> -->
-    <img
+  <img
     src="img/blog/blog-photo-1.jpeg"
     alt="blog-photo-1"
     class="blog-card-image"

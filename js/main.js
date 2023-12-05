@@ -84,7 +84,7 @@ const swiper = new Swiper("#swiper1", {
 const secondSwiper = new Swiper("#swiper2", {
   // Optional parameters
   speed: 400,
-  autoHeight: false,
+  autoHeight: true,
   direction: "horizontal",
   slidesPerView: 1,
   navigation: {
@@ -148,7 +148,6 @@ const swiperBlogPage = new Swiper(".blog-page-slider", {
     el: ".swiper-pagination",
     clickable: true,
     type: "bullets",
-    className: "pagination-button",
     renderBullet: function (index, className) {
       return `<span class="${className}">${index + 1}</span>`;
     },

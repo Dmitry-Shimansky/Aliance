@@ -1,28 +1,123 @@
-<?php 
-$page_title = "Блог";
-$header_style = "section-header";
+<?php
+$page_title = "Современная методология разработки одухотворила всех причастных";
+$header_style = "section-header-articles-blog";
+$section_header_title = "section-header-title-white";
+$bred_crumbs_separator_class = "bred-crumbs-separator-white";
+$bred_crumbs_item_class = "bred-crumbs-item-white";
 $display_none = "display-none";
-include_once('header-page.php');?>
-<!-- <section class="section blog-page">
-  <div class="container"> -->
-<div class="test-wrapper">
-    <div class="swiper mySwiper">
-      <div class="swiper-wrapper">
-        <div class="swiper-slide">Slide 1</div>
-        <div class="swiper-slide">Slide 2</div>
-        <div class="swiper-slide">Slide 3</div>
-        <div class="swiper-slide">Slide 4</div>
-        <div class="swiper-slide">Slide 5</div>
-        <div class="swiper-slide">Slide 6</div>
-        <div class="swiper-slide">Slide 7</div>
-        <div class="swiper-slide">Slide 8</div>
-        <div class="swiper-slide">Slide 9</div>
+$bred_crumbs_item = "Блог";
+include_once('header-page.php'); ?>
+<section class="section articles-blog">
+  <div class="container">
+    <div class="column-container">
+      <div class="sharing-container">
+        <h2 class="sharing-title">Поделиться:</h2>
+        <ul class="sharing-networks-container">
+          <li class="sharing-networks-item">
+            <a href="#" class="sharing-networks-link">
+              <svg class="sharing-network-logo-svg">
+                <use href="img/sprite.svg#vk"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="sharing-networks-item">
+            <a href="#" class="sharing-networks-link">
+              <svg class="sharing-network-logo-svg">
+                <use href="img/sprite.svg#facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="sharing-networks-item">
+            <a href="#" class="sharing-networks-link">
+              <svg class="sharing-network-logo-svg">
+                <use href="img/sprite.svg#telegram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="sharing-networks-item">
+            <a href="#" class="sharing-networks-link">
+              <svg class="sharing-network-logo-svg">
+                <use href="img/sprite.svg#google"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
       </div>
-      <div class="swiper-pagination"></div>
+      <div class="article-container">
+        <article class="article-wrapper">
+          <h2 class="article-main-title">Реализация намеченных плановых заданий</h2>
+          <p class="article-text">
+            Значимость этих проблем настолько очевидна, что постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет оценить значение системы обучения кадров, соответствует насущным потребностям. Задача организации, в особенности же укрепление и развитие структуры в значительной степени обуславливает создание форм развития. С другой стороны укрепление и развитие структуры способствует подготовки и реализации системы обучения кадров, соответствует насущным потребностям. Повседневная практика показывает, что укрепление и развитие структуры требуют определения и уточнения систем массового участия. Таким образом начало повседневной работы по формированию позиции позволяет выполнять важные задания по разработке позиций, занимаемых участниками в отношении поставленных задач.
+          </p>
+        </article>
+        <article class="article-wrapper">
+          <h2 class="article-title">Равным образом консультация с широким активом</h2>
+          <p class="article-text">
+            Таким образом постоянный количественный рост и сфера нашей активности позволяет оценить значение дальнейших направлений развития. Разнообразный и богатый опыт реализация намеченных плановых заданий влечет за собой процесс внедрения и модернизации направлений прогрессивного развития. С другой стороны консультация с широким активом позволяет оценить значение форм развития. Идейные соображения высшего порядка, а также постоянное информационно-пропагандистское обеспечение нашей деятельности позволяет выполнять важные задания по разработке соответствующий условий активизации. Разнообразный и богатый опыт дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании соответствующий условий активизации.
+          </p>
+          <p class="article-text">
+            С другой стороны рамки и место обучения кадров влечет за собой процесс внедрения и модернизации систем массового участия. Равным образом консультация с широким активом в значительной степени обуславливает создание дальнейших направлений развития. Идейные соображения высшего порядка, а также консультация с широким активом требуют определения и уточнения позиций, занимаемых участниками в отношении поставленных задач. Равным образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации дальнейших направлений развития.
+          </p>
+          <p class="article-text">
+            Разнообразный и богатый опыт начало повседневной работы по формированию позиции позволяет оценить значение позиций, занимаемых участниками в отношении поставленных задач. Разнообразный и богатый опыт реализация намеченных плановых заданий позволяет выполнять важные задания по разработке форм развития. Задача организации, в особенности же постоянный <a href="#" class="highlighted-text">количественный рост</a> и сфера нашей активности обеспечивает широкому кругу (специалистов) участие в формировании форм развития.
+          </p>
+          <img src="img/blog/blog-photo-1.jpeg" alt="Blog image" class="article-image">
+          <ul class="blog-text-items">Равным образом консультация с широким активом:
+            <li class="blog-text-item">
+              <p class="article-text">
+                Идейные соображения высшего порядка, а также консультация с широким активом требуют определения и уточнения позиций.
+              </p>
+            </li>
+            <li class="blog-text-item">
+              <p class="article-text">
+                С другой стороны консультация с широким активом позволяет оценить значение форм развития.
+              </p>
+            </li>
+            <li class="blog-text-item">
+              <p class="article-text">
+                Разнообразный и богатый опыт реализация намеченных плановых заданий позволяет выполнять важные задания.
+              </p>
+            </li>
+          </ul>
+        </article>
+        <article class="article-wrapper">
+          <h2 class="article-title">Равным образом консультация с широким активом</h2>
+          <p class="article-text">
+            С другой стороны рамки и место обучения кадров влечет за собой процесс внедрения и модернизации систем массового участия. Равным образом консультация с широким активом в значительной степени обуславливает создание дальнейших направлений развития. Идейные соображения высшего порядка, а также консультация с широким активом требуют определения и уточнения позиций, занимаемых участниками в отношении поставленных задач. Равным образом дальнейшее развитие различных форм деятельности влечет за собой процесс внедрения и модернизации дальнейших направлений развития.
+          </p>
+          <ol class="text-list">
+            <li class="text-list-item">
+              <p class="number-text-list-item">01.</p>
+              <p class="article-text">
+                Идейные соображения высшего порядка, а также консультация с широким активом требуют определения и уточнения позиций.
+              </p>
+            </li>
+            <li class="text-list-item">
+              <p class="number-text-list-item">02.</p>
+              <p class="article-text">
+                С другой стороны консультация с широким активом позволяет оценить значение форм развития.
+              </p>
+            </li>
+            <li class="text-list-item">
+              <p class="number-text-list-item">03.</p>
+              <p class="article-text">
+                Разнообразный и богатый опыт реализация намеченных плановых заданий позволяет выполнять важные задания.
+              </p>
+            </li>
+          </ol>
+        </article>
+      </div>
     </div>
-</div>
-  <!-- </div>
-</section> -->
-<?php 
+  </div>
+</section>
+<!-- /.section articles-blog -->
+<?php
+$block_title = "Так же вас может заинтересовать:";
+$blog_card = "blog-card";
+$display_blog_link = "display-none";
+$buttons_block = "blog-slider-research";
+$section_class = "blog-with-articles";
+include_once('./template-parts/blog-block.php') ?>
+<?php
 $display_none = "cta";
-include_once('footer.php');?>
+include_once('footer.php'); ?>

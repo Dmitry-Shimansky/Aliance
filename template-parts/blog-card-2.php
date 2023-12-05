@@ -1,4 +1,4 @@
-<a href="#" class="swiper-slide blog-card">
+<a href="./blog-with-articles.php" class="swiper-slide blog-card">
   <img
     src="img/blog/blog-photo-2.jpeg"
     alt="blog-photo-2"
