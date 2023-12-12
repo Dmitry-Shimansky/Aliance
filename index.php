@@ -169,6 +169,7 @@
   include_once('./template-parts/working-schema-block.php'); ?>
   <?php
   $block_title = 'контрактное производство';
+  $section_production = "section-production";
   include_once('./template-parts/section-production-block.php'); ?>
   <!-- /.section production -->
   <?php

@@ -5,7 +5,9 @@ $display_none = "display-none";
 $bred_crumbs_separator_class = "bred-crumbs-separator";
 $bred_crumbs_item_class = "bred-crumbs-item";
 include_once('header-page.php'); ?>
-<?php include_once('./template-parts/section-production-block.php'); ?>
+<?php
+$section_production = "section-production-contracts";
+include_once('./template-parts/section-production-block.php'); ?>
 <section class="section seo-section">
   <div class="container">
     <h3 class="contracts-title">SEO Заголовок</h3>
