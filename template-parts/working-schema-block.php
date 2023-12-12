@@ -43,12 +43,12 @@
       <!-- navigation buttons -->
       <div class="second-slider-buttons primary-buttons-wrapper">
         <div class="second-slider-button-prev primary-button-prev">
-          <svg width="30" height="24">
+          <svg width="30" height="24" class="<?= $arrow_prev_color ?>">
             <use href="img/sprite.svg#arrow-prev"></use>
           </svg>
         </div>
         <div class="second-slider-button-next primary-button-next">
-          <svg width="30" height="24">
+          <svg width="30" height="24" class="<?= $arrow_next_color ?>">
             <use href="img/sprite.svg#arrow-next"></use>
           </svg>
         </div>

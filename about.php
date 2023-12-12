@@ -8,12 +8,12 @@ include_once('header-page.php'); ?>
 <section class="section experts">
   <div class="container">
     <div class="experts-content-wraper">
-      <picture class="experts-photo">
+      <!-- <picture class="experts-photo">
         <source type="image/webp" srcset="img/group_57.webp">
         <source type="image/png" srcset="img/group_57.png">
         <img src="img/group_57.png" alt="experts">
-      </picture>
-      <!-- <img src="img/group_57.png" alt="experts" class="experts-photo" /> -->
+      </picture> -->
+      <img src="img/group_57.png" alt="experts" class="experts-photo" />
       <div class="experts-content">
         <div class="separator"></div>
         <h2 class="section-title experts-title-founder">
@@ -37,11 +37,14 @@ include_once('header-page.php'); ?>
 <section class="section our-production">
   <div class="container">
     <div class="our-production-content-wraper">
-      <div class="our-production-content">
+      <!-- <div class="our-production-content"> -->
+      <div class="grid-title-about">
         <div class="separator"></div>
         <h2 class="section-title our-production-title">
           Наше производство
         </h2>
+      </div>
+      <div class="grid-text-about">
         <p class="our-production-text">
           Предварительные выводы неутешительны: разбавленное изрядной долей эмпатии, рациональное мышление обеспечивает широкому кругу (специалистов) участие в формировании глубокомысленных рассуждений. Но граница обучения кадров создаёт необходимость включения в производственный план целого ряда внеочередных мероприятий с учётом комплекса кластеризации усилий.
         </p>
@@ -87,17 +90,22 @@ include_once('header-page.php'); ?>
           </li>
         </ul>
       </div>
-      <picture class="our-production-photo">
+      <!-- </div> -->
+      <!-- <picture class="our-production-photo">
         <source type="image/webp" srcset="img/our-production.webp">
         <source type="image/png" srcset="img/our-production.png">
         <img src="img/our-production.png" alt="our-production">
-      </picture>
-      <!-- <img src="img/our-production.png" alt="our-production" class="our-production-photo" /> -->
+      </picture> -->
+      <img src="img/our-production.png" alt="our-production" class="our-production-photo" />
     </div>
   </div>
 </section>
 <!-- /.section our-production -->
-<?php include_once('./template-parts/founder-block.php'); ?>
+<?php
+$founder = "founder-about";
+$founder_photo = "founder-photo-about";
+$founder_text = "founder-text-about";
+include_once('./template-parts/founder-block.php'); ?>
 <?php include_once('./template-parts/research-block.php'); ?>
 <?php
 $clients_about = "clients-about-page";

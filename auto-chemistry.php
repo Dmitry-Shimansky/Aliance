@@ -31,6 +31,9 @@ include_once('header-page.php'); ?>
     <?php
     $swiper_feature_item = "expert-feature-item";
     $swiper_features_text = "expert-feature-text";
+    $slider_button = "expert-slider-button";
+    $arrow_prev_color = "arrow-prev-black";
+    $arrow_next_color = "arrow-next-black";
     include_once('./template-parts/main-slider-block.php'); ?>
   </div>
 </section>
@@ -97,12 +100,12 @@ include_once('header-page.php'); ?>
           </li>
         </ul>
       </div>
-      <picture class="auto-chemistry-photo">
+      <!-- <picture class="auto-chemistry-photo">
         <source type="image/webp" srcset="img/avto-chemistry-production.webp">
         <source type="image/png" srcset="img/avto-chemistry-production.png">
         <img src="img/avto-chemistry-production.png" alt="our-production">
-      </picture>
-      <!-- <img src="img/avto-chemistry-production.png" alt="avto-chemistry-production" class="auto-chemistry-photo" /> -->
+      </picture> -->
+      <img src="img/avto-chemistry-production.png" alt="avto-chemistry-production" class="auto-chemistry-photo" />
     </div>
   </div>
 </section>

@@ -163,7 +163,10 @@
     </div>
     <!-- /.container -->
   </header>
-  <?php include_once('./template-parts/working-schema-block.php'); ?>
+  <?php
+  $arrow_prev_color = "arrow-prev-white";
+  $arrow_next_color = "arrow-next-white";
+  include_once('./template-parts/working-schema-block.php'); ?>
   <?php
   $block_title = 'контрактное производство';
   include_once('./template-parts/section-production-block.php'); ?>
