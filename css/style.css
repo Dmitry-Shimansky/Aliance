@@ -1505,6 +1505,9 @@ body {
 .research-slider-card {
   min-height: 25rem;
 }
+.contacts-map {
+  width: 100%;
+}
 @media (max-width: 1650px) {
   html {
     font-size: 14px;
@@ -2034,6 +2037,47 @@ body {
     height: 1.9rem;
     margin-right: 1.3rem;
   }
+  .trade-marks-page {
+    padding-top: 4.2rem;
+  }
+  .contacts-section {
+    padding-top: 2.2rem;
+  }
+  .footer-phone {
+    font-size: 2.66rem;
+  }
+  .contacts-container {
+    padding-top: 2.1rem;
+  }
+  .footer-top {
+    row-gap: 2.5rem;
+    padding-bottom: 4rem;
+  }
+  .footer-info {
+    gap: 1.3rem;
+    align-items: start;
+  }
+  .contacts-address-icon,
+  .contacts-mail-icon,
+  .contacts-vk,
+  .contacts-inst {
+    width: 3.5rem;
+    height: 3rem;
+  }
+  .contacts-info-address,
+  .contacts-info-email {
+    font-size: 1.7rem;
+    line-height: 162%;
+  }
+  .vk {
+    margin-right: 0.6rem;
+  }
+  .contacts-map {
+    height: 41.5rem;
+    width: 100%;
+    object-fit: cover;
+    object-position: right;
+  }
 }
 @media (max-width: 576px) {
   .header-logo {
@@ -2268,11 +2312,12 @@ body {
   .footer-info-address {
     font-size: 1.16rem;
   }
-  .footer-info {
-    gap: 0.9rem;
-  }
+  /* .footer-info {
+    gap: 1.7rem;
+    align-items: start;
+  } */
   .vk {
-    margin-right: 1rem;
+    margin-right: 0.6rem;
   }
   .footer-bottom {
     padding-top: 1.9rem;
@@ -2422,5 +2467,33 @@ body {
   }
   .seo-section {
     padding-top: 2.7rem;
+  }
+  .trade-marks-page {
+    padding-top: 4.2rem;
+  }
+  .contacts-section {
+    padding-top: 2.2rem;
+  }
+  .footer-phone {
+    font-size: 2.66rem;
+  }
+  .contacts-container {
+    padding-top: 2.1rem;
+  }
+  .footer-top {
+    row-gap: 2.5rem;
+    padding-bottom: 4rem;
+  }
+  .contacts-address-icon,
+  .contacts-mail-icon,
+  .contacts-vk,
+  .contacts-inst {
+    width: 3.5rem;
+    height: 3rem;
+  }
+  .contacts-info-address,
+  .contacts-info-email {
+    font-size: 1.7rem;
+    line-height: 162%;
   }
 }

@@ -42,12 +42,12 @@ include_once('header-page.php'); ?>
       <!-- /.footer-social -->
     </div>
     <!-- /.footer-top -->
-    <picture class="contacts-map">
+    <!-- <picture class="contacts-map">
       <source type="image/webp" srcset="img/map.webp">
       <source type="image/png" srcset="img/map.png">
       <img src="img/map.png" alt="map">
-    </picture>
-    <!-- <img src="img/map.png" alt="Map" class="contacts-map"> -->
+    </picture> -->
+    <img src="img/map.png" alt="Map" class="contacts-map">
   </div>
 </section>
 <?php

@@ -1,6 +1,6 @@
-<section class="trade-marks">
+<section class="trade-marks <?= $trade_marks ?>">
   <div class="container">
-    <?php 
+    <?php
     if (!empty($block_title)) {
       echo '<div class="separator"></div>';
       echo '<h2 class="section-title">' . $block_title . '</h2>';
