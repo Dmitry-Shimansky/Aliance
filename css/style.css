@@ -1208,7 +1208,7 @@ body {
   padding-bottom: 6.8rem;
 }
 .privacy-policy-text {
-  font-size: 16px;
+  font-size: 1rem;
   font-style: normal;
   font-weight: 400;
   line-height: 160%;
@@ -2094,6 +2094,15 @@ body {
     margin-top: 3.7rem;
     justify-content: center;
   }
+  .privacy-policy-section {
+    padding-top: 4.3rem;
+    margin-bottom: 7.5rem;
+  }
+  .privacy-policy-text {
+    font-size: 1.18rem;
+    line-height: 155%;
+    margin-bottom: 0.9rem;
+  }
 }
 @media (max-width: 576px) {
   .header-logo {
@@ -2517,5 +2526,12 @@ body {
   }
   .swiper-wrapper {
     height: 169.9rem;
+  }
+  .section-header-title {
+    word-break: break-word;
+    padding-right: 3rem;
+  }
+  .privacy-policy-section {
+    padding-top: 4.5rem;
   }
 }
