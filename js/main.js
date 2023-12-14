@@ -139,11 +139,11 @@ const swiperBlog = new Swiper(".blog-slider", {
 const swiperBlogPage = new Swiper(".blog-page-slider", {
   speed: 400,
   autoHeight: false,
-  slidesPerView: 2,
+  slidesPerView: 1,
   grid: {
-    rows: 5,
+    rows: 10,
   },
-  spaceBetween: 30,
+  spaceBetween: 10,
   pagination: {
     el: ".swiper-pagination",
     clickable: true,
@@ -153,6 +153,16 @@ const swiperBlogPage = new Swiper(".blog-page-slider", {
     },
     bulletActiveClass: "pagination-bullet-active",
     bulletClass: "pagination-bullet",
+  },
+  breakpoints: {
+    // when window width is >= 576px
+    1200: {
+      slidesPerView: 2,
+      spaceBetween: 30,
+      grid: {
+        rows: 5,
+      },
+    },
   },
 });
 

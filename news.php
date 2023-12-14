@@ -10,7 +10,9 @@ $block_title = "Так же вас может заинтересовать:";
 $blog_card = "blog-card";
 $display_blog_link = "display-none";
 $buttons_block = "blog-slider-research";
-include_once('./template-parts/blog-block.php') ?>
+$arrow_prev_color = "arrow-prev-white";
+$arrow_next_color = "arrow-next-white";
+include_once('./template-parts/blog-block.php'); ?>
 <?php
 $display_none = "cta";
 include_once('footer.php'); ?>

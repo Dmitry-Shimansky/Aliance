@@ -1521,6 +1521,9 @@ body {
   .experts-title-founder {
     padding-right: 16.625rem;
   }
+  .swiper-wrapper {
+    height: 134.5rem;
+  }
 }
 @media (max-width: 1460px) {
   html {
@@ -1550,6 +1553,9 @@ body {
   }
   .mark-text {
     padding-right: 0;
+  }
+  .swiper-wrapper {
+    height: 135.5rem;
   }
 }
 @media (max-width: 1200px) {
@@ -2078,6 +2084,16 @@ body {
     object-fit: cover;
     object-position: right;
   }
+  .blog-page {
+    padding-top: 4.3rem;
+  }
+  .swiper-wrapper {
+    height: 258rem;
+  }
+  .pagination-bullets-wrapper {
+    margin-top: 3.7rem;
+    justify-content: center;
+  }
 }
 @media (max-width: 576px) {
   .header-logo {
@@ -2495,5 +2511,11 @@ body {
   .contacts-info-email {
     font-size: 1.7rem;
     line-height: 162%;
+  }
+  .blog-page {
+    padding-top: 4.3rem;
+  }
+  .swiper-wrapper {
+    height: 169.9rem;
   }
 }
