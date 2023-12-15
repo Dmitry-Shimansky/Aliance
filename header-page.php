@@ -167,16 +167,12 @@
             <a href="#" class="<?= $bred_crumbs_item_class ?>"><?= $page_title ?></a>
           </div>
         </div>
-        <picture class="<?= $display_none ?>">
+        <!-- <picture class="<?= $display_none ?>">
           <source type="image/webp" srcset="img/avto-him.webp">
-          <source type="image/jpeg" srcset="img/avto-him.jpeg">
-          <img src="img/avto-him.jpeg" alt="Ballon">
-        </picture>
-        <!-- <img
-            src="img/avto-him.png"
-            alt="Ballon"
-            class="section-header-image"
-          /> -->
+          <source type="image/png" srcset="img/avto-him.png">
+          <img src="img/avto-him.png" alt="Ballon">
+        </picture> -->
+        <img src="img/avto-him.png" alt="Ballon" class="<?= $display_none ?>" />
       </div>
     </div>
   </section>

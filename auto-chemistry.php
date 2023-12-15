@@ -40,7 +40,7 @@ include_once('header-page.php'); ?>
 <!-- /.section experts -->
 <section class="section auto-chemistry-production">
   <div class="container">
-    <div class="our-production-content-wraper">
+    <div class="autochemistry-production-wraper">
       <div class="our-production-content">
         <div class="separator"></div>
         <h2 class="section-title our-production-title">

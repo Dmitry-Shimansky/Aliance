@@ -1117,11 +1117,11 @@ body {
   min-height: 41.25rem;
   padding-top: 9.3rem;
 }
-/* .our-production-content-wraper {
+.autochemistry-production-wraper {
   display: flex;
   gap: 7.5rem;
   margin-bottom: 0.3rem;
-} */
+}
 .our-production-content-wraper {
   display: grid;
   grid-template-columns: 45rem auto;
@@ -1524,6 +1524,9 @@ body {
   .swiper-wrapper {
     height: 134.5rem;
   }
+  .autochemistry-types-list-item::before {
+    margin-top: 10px;
+  }
 }
 @media (max-width: 1460px) {
   html {
@@ -1654,15 +1657,31 @@ body {
     grid-template-rows: 11rem 2fr;
     grid-column-gap: 2.5rem;
   }
-  /* .our-production-content-wraper {
+  .autochemistry-production-wraper {
     gap: 2.5rem;
     align-items: center;
-  } */
+  }
   .our-production-photo {
     object-fit: cover;
   }
   .research-text-wrapper {
     gap: 2.5rem;
+  }
+  .experts-content-wraper {
+    gap: 2.5rem;
+    align-items: center;
+  }
+  .auto-chemistry-title {
+    padding-right: 0rem;
+  }
+  .auto-chemistry-photo {
+    width: 37%;
+  }
+  .autochemistry-types-text {
+    padding-right: 0;
+  }
+  .autochemistry-types-list {
+    columns: 2 auto;
   }
 }
 @media (max-width: 992px) {
@@ -1830,6 +1849,9 @@ body {
   }
   .founder-photo {
     width: 40%;
+  }
+  .section-header-image {
+    display: none;
   }
 }
 @media (max-width: 768px) {
@@ -2102,6 +2124,13 @@ body {
     font-size: 1.18rem;
     line-height: 155%;
     margin-bottom: 0.9rem;
+  }
+  .auto-chemistry-photo {
+    width: 100%;
+    height: 100%;
+  }
+  .autochemistry-production-wraper {
+    display: block;
   }
 }
 @media (max-width: 576px) {
@@ -2419,10 +2448,10 @@ body {
     height: 100%;
   }
   .experts {
-    padding-top: 4.35rem;
+    padding-top: 4.1rem;
   }
   .experts-content {
-    padding-top: 4rem;
+    padding-top: 2.4rem;
   }
   .experts-title-founder {
     margin-bottom: 0.7rem;
@@ -2533,5 +2562,52 @@ body {
   }
   .privacy-policy-section {
     padding-top: 4.5rem;
+  }
+  .autochemistry-types-list {
+    columns: 1;
+  }
+  .bread-crumbs-wrapper {
+    flex-wrap: wrap;
+    row-gap: 1rem;
+  }
+  .auto-chemistry-photo {
+    height: 24.6rem;
+  }
+  .auto-chemistry-title,
+  .our-production-title {
+    margin-bottom: 0.7rem;
+  }
+  .experts-text {
+    margin-bottom: 0.8rem;
+  }
+  .auto-chemistry-production {
+    padding-top: 5.5rem;
+  }
+  .clients-list-item {
+    margin-bottom: 0.85rem;
+  }
+  .clients-list {
+    margin-bottom: 2.8rem;
+  }
+  .autochemistry-types {
+    padding-top: 7.8rem;
+  }
+  .autochemistry-types-text {
+    font-size: 1.17rem;
+    line-height: 158%;
+    margin-bottom: 2.5rem;
+  }
+  .autochemistry-types-list-item {
+    font-size: 1.2rem;
+    gap: 1.5rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    align-items: center;
+  }
+  .autochemistry-types-list-item::before {
+    margin-top: 0;
+  }
+  .autochemistry-types-research {
+    padding-top: 3.1rem;
   }
 }
