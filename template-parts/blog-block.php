@@ -7,6 +7,6 @@
     }
     ?>
     <!-- Slider main container -->
-    <?php include_once('./template-parts/blog-slider-block.php') ?>
+    <?php include_once('./template-parts/blog-slider-block.php'); ?>
   </div>
 </section>

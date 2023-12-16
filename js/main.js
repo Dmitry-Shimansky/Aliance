@@ -184,12 +184,18 @@ modalButtons.forEach((button) => {
     currentModal.classList.toggle("is-open");
     /*Assign dialog window */
     modalDialog = currentModal.querySelector(".modal-dialog");
+    if (document.body.style.overflow == "hidden") {
+      document.body.style.overflow = ""; //Get back site scrolling
+    } else {
+      document.body.style.overflow = "hidden"; //Forbid site scrolling
+    }
     /*Tracking clicks to the window and outside */
     currentModal.addEventListener("click", (event) => {
       /*If click outside the window */
       if (!event.composedPath().includes(modalDialog)) {
         /*Close dialog window */
         currentModal.classList.remove("is-open");
+        document.body.style.overflow = ""; //Get back site scrolling
       }
     });
   });
@@ -199,6 +205,7 @@ modalButtons.forEach((button) => {
 document.addEventListener("keyup", (event) => {
   if (event.key == "Escape" && currentModal.classList.contains("is-open")) {
     currentModal.classList.toggle("is-open");
+    document.body.style.overflow = ""; //Get back site scrolling
   }
 });
 
@@ -249,6 +256,7 @@ forms.forEach((form) => {
             currentModal.addEventListener("click", (event) => {
               if (!event.composedPath().includes(modalDialog)) {
                 currentModal.classList.remove("is-open");
+                document.body.style.overflow = ""; //Get back site scrolling
               }
             });
           } else {
