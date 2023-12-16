@@ -33,7 +33,9 @@ const closeMenu = (event) => {
   menu.classList.remove("is-open"); //Remove class "is-open" from the "mobile-menu class"
   mMenuToggle.classList.remove("close-menu");
   document.body.style.overflow = ""; //Get back site scrolling
-  lightModeOff();
+  if (isFront) {
+    lightModeOff();
+  }
 };
 
 window.addEventListener("scroll", () => {
