@@ -329,7 +329,7 @@ body {
   margin-right: 1.25rem;
   transition: width 0.2s;
 }
-.button-link:hover:before {
+.button-link:not(.no-hover):hover:before {
   width: 60px;
 }
 .section-production {
@@ -346,10 +346,10 @@ body {
   position: relative;
   transition: border 0.2s;
 }
-.card:hover .card-title {
+.card:not(.no-hover):hover .card-title {
   color: #5c8ee6;
 }
-.card:hover {
+.card:not(.no-hover):hover {
   border-color: #5c8ee6;
 }
 .card-content {
@@ -429,13 +429,13 @@ body {
   padding-right: 3.4375rem;
   grid-area: text;
 }
-.mark:hover .mark-title {
+.mark:not(.no-hover):hover .mark-title {
   color: #5c8ee6;
 }
-.mark:hover .svg-mark-image {
+.mark:not(.no-hover):hover .svg-mark-image {
   fill: #5c8ee6;
 }
-.mark:hover {
+.mark:not(.no-hover):hover {
   border-color: #5c8ee6;
 }
 .founder {
@@ -525,10 +525,10 @@ body {
   transition: filter 0.4s;
   transition-timing-function: cubic-bezier(0.68, -0.55, 0.265, 1.55);
 }
-.clients-logo-item:hover .clients-logo {
+.clients-logo-item:not(.no-hover):hover .clients-logo {
   filter: grayscale(0);
 }
-.clients-logo-item:hover {
+.clients-logo-item:not(.no-hover):hover {
   /* background: linear-gradient(rgba(255, 238, 0, 0.447), transparent),
     linear-gradient(to top left, rgba(0, 255, 0, 0.43), transparent),
     linear-gradient(to top right, rgba(0, 0, 255, 0.362), transparent);
@@ -998,10 +998,10 @@ body {
   margin-right: 0.6rem;
   margin-top: 0.7rem;
 }
-.bred-crumbs-item:hover {
+.bred-crumbs-item:not(.no-hover):hover {
   color: #292d33;
 }
-.bred-crumbs-item-white:hover {
+.bred-crumbs-item-white:not(.no-hover):hover {
   color: #5c8ee5;
 }
 .seo-section {

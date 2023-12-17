@@ -267,3 +267,47 @@ forms.forEach((form) => {
       ajaxSend(formData);
     });
 });
+
+const hoverElements = document.querySelectorAll(".hover");
+
+window.addEventListener("resize", function () {
+  let w = window.innerWidth;
+  if (hoverElements[0].classList.contains("hover") && w <= 992) {
+    hoverElements.forEach((element) => {
+      console.log(element);
+      if (element.classList.contains("hover") && w < 992) {
+        element.classList.remove("hover");
+        element.classList.add("no-hover");
+      }
+    });
+  }
+  if (hoverElements[0].classList.contains("no-hover") && w > 992) {
+    hoverElements.forEach((element) => {
+      console.log(element);
+      if (element.classList.contains("no-hover") && w > 992) {
+        element.classList.remove("no-hover");
+        element.classList.add("hover");
+      }
+    });
+  }
+});
+
+const checkWidthOnReload = () => {
+  const width = window.innerWidth;
+  const hoverElement = hoverElements[0];
+  if (hoverElement.classList.contains("hover") && width <= 992) {
+    hoverElements.forEach((element) => {
+      console.log(element);
+      element.classList.remove("hover");
+      element.classList.add("no-hover");
+    });
+  }
+  if (hoverElement.classList.contains("no-hover") && width > 992) {
+    hoverElements.forEach((element) => {
+      console.log(element);
+      element.classList.remove("no-hover");
+      element.classList.add("hover");
+    });
+  }
+};
+checkWidthOnReload();

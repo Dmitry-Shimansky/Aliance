@@ -149,22 +149,22 @@
               echo 'section-header-title';
             } ?>"><?= $page_title ?></h2>
           <div class="bread-crumbs-wrapper">
-            <a href="#" class="<?= $bred_crumbs_item_class ?>">Главная</a>
+            <a href="#" class="<?= $bred_crumbs_item_class ?> hover">Главная</a>
             <div class="<?= $bred_crumbs_separator_class ?>"></div>
             <?php
             if ($bred_crumbs_item == "Контрактное производство") {
               echo '
-                  <a href="./contracts.php" class="' . $bred_crumbs_item_class . '">' . $bred_crumbs_item . '</a>
+                  <a href="./contracts.php" class="' . $bred_crumbs_item_class . ' hover">' . $bred_crumbs_item . '</a>
                   <div class="' . $bred_crumbs_separator_class . '"></div>
                 ';
             };
             if ($bred_crumbs_item == "Блог") {
               echo '
-                  <a href="./blog.php" class="' . $bred_crumbs_item_class . '">' . $bred_crumbs_item . '</a>
+                  <a href="./blog.php" class="' . $bred_crumbs_item_class . ' hover">' . $bred_crumbs_item . '</a>
                   <div class="' . $bred_crumbs_separator_class . '"></div>
                 ';
             }; ?>
-            <a href="#" class="<?= $bred_crumbs_item_class ?>"><?= $page_title ?></a>
+            <a href="#" class="<?= $bred_crumbs_item_class ?> hover"><?= $page_title ?></a>
           </div>
         </div>
         <!-- <picture class="<?= $display_none ?>">

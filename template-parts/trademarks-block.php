@@ -7,7 +7,7 @@
     }
     ?>
     <div class="marks">
-      <a href="#" class="mark">
+      <a href="#" class="mark hover">
         <div class="mark-image">
           <svg class="svg-mark-image">
             <use href="img/sprite.svg#AGTECH"></use>
@@ -21,7 +21,7 @@
         </p>
       </a>
       <!-- /.mark -->
-      <a href="#" class="mark">
+      <a href="#" class="mark hover">
         <div class="mark-image">
           <svg class="svg-mark-image">
             <use href="img/sprite.svg#AP"></use>
