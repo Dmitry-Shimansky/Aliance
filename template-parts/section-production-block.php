@@ -23,7 +23,7 @@
         </picture> -->
         <img src="img/avto-himija.png" alt="Автомобильная химия" class="card-image" />
       </a>
-      <a href="#" class="card hover">
+      <a href="../todo.php" class="card hover">
         <div class="card-content">
           <h3 class="card-title">Бытовая химия</h3>
           <p class="card-text">
@@ -39,7 +39,7 @@
         </picture> -->
         <img src="img/bitovaja-himija.png" alt="Бытовая химия" class="card-image" />
       </a>
-      <a href="#" class="card hover">
+      <a href="../todo.php" class="card hover">
         <div class="card-content">
           <h3 class="card-title">Дезинфицирующие средства</h3>
           <p class="card-text">
@@ -54,7 +54,7 @@
         </picture> -->
         <img src="img/dezinficiryuchie-sredstva.png" alt="Дезинфицирующие средства" class="card-image" />
       </a>
-      <a href="#" class="card hover">
+      <a href="../todo.php" class="card hover">
         <div class="card-content">
           <h3 class="card-title">Пищевые аэрозоли</h3>
           <p class="card-text">
@@ -70,7 +70,7 @@
         </picture> -->
         <img src="img/pischevye-aerozoli.png" alt="Пищевые аэрозоли" class="card-image" />
       </a>
-      <a href="#" class="card hover">
+      <a href="../todo.php" class="card hover">
         <div class="card-content">
           <h3 class="card-title">Косметическая продукция</h3>
           <p class="card-text">
@@ -85,7 +85,7 @@
         </picture> -->
         <img src="img/kosmeticheskaia-produkcia.png" alt="Косметическая продукция" class="card-image" />
       </a>
-      <a href="#" class="card hover">
+      <a href="../todo.php" class="card hover">
         <div class="card-content">
           <h3 class="card-title">Краски аэрозольные</h3>
           <p class="card-text">

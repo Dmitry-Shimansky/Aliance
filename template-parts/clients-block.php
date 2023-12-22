@@ -71,7 +71,7 @@
       </div>
       <!-- /.clients-content -->
       <div class="clients-logo-list">
-        <a href="#" class="clients-logo-item hover">
+        <a href="../todo.php" class="clients-logo-item hover">
           <!-- <picture class="clients-logo">
               <source type="image/webp" srcset="img/clients.webp">
               <source type="image/png" srcset="img/clients.png">
@@ -79,7 +79,7 @@
             </picture>   -->
           <img src="img/clients.png" alt="client logo" class="clients-logo" />
         </a>
-        <a href="#" class="clients-logo-item hover">
+        <a href="../todo.php" class="clients-logo-item hover">
           <!-- <picture class="clients-logo">
               <source type="image/webp" srcset="img/clients.webp">
               <source type="image/png" srcset="img/clients.png">
@@ -87,7 +87,7 @@
             </picture>  -->
           <img src="img/clients.png" alt="client logo" class="clients-logo" />
         </a>
-        <a href="#" class="clients-logo-item hover">
+        <a href="../todo.php" class="clients-logo-item hover">
           <!-- <picture class="clients-logo">
               <source type="image/webp" srcset="img/clients.webp">
               <source type="image/png" srcset="img/clients.png">
@@ -95,7 +95,7 @@
             </picture>   -->
           <img src="img/clients.png" alt="client logo" class="clients-logo" />
         </a>
-        <a href="#" class="clients-logo-item hover">
+        <a href="../todo.php" class="clients-logo-item hover">
           <!-- <picture class="clients-logo">
               <source type="image/webp" srcset="img/clients.webp">
               <source type="image/png" srcset="img/clients.png">
@@ -103,7 +103,7 @@
             </picture>   -->
           <img src="img/clients.png" alt="client logo" class="clients-logo" />
         </a>
-        <a href="#" class="clients-logo-item hover">
+        <a href="../todo.php" class="clients-logo-item hover">
           <!-- <picture class="clients-logo">
               <source type="image/webp" srcset="img/clients.webp">
               <source type="image/png" srcset="img/clients.png">
@@ -111,7 +111,7 @@
             </picture>   -->
           <img src="img/clients.png" alt="client logo" class="clients-logo" />
         </a>
-        <a href="#" class="clients-logo-item hover">
+        <a href="../todo.php" class="clients-logo-item hover">
           <!-- <picture class="clients-logo">
               <source type="image/webp" srcset="img/clients.webp">
               <source type="image/png" srcset="img/clients.png">
@@ -119,7 +119,7 @@
             </picture>   -->
           <img src="img/clients.png" alt="client logo" class="clients-logo" />
         </a>
-        <a href="#" class="clients-logo-item hover">
+        <a href="../todo.php" class="clients-logo-item hover">
           <!-- <picture class="clients-logo">
               <source type="image/webp" srcset="img/clients.webp">
               <source type="image/png" srcset="img/clients.png">
@@ -127,7 +127,7 @@
             </picture>   -->
           <img src="img/clients.png" alt="client logo" class="clients-logo" />
         </a>
-        <a href="#" class="clients-logo-item hover">
+        <a href="../todo.php" class="clients-logo-item hover">
           <!-- <picture class="clients-logo">
               <source type="image/webp" srcset="img/clients.webp">
               <source type="image/png" srcset="img/clients.png">
@@ -135,7 +135,7 @@
             </picture>   -->
           <img src="img/clients.png" alt="client logo" class="clients-logo" />
         </a>
-        <a href="#" class="clients-logo-item hover">
+        <a href="../todo.php" class="clients-logo-item hover">
           <!-- <picture class="clients-logo">
               <source type="image/webp" srcset="img/clients.webp">
               <source type="image/png" srcset="img/clients.png">
