@@ -23,19 +23,19 @@
             <a class="mobile-submenu-link" href="./auto-chemistry.php">Автомобильная химия</a>
           </li>
           <li class="mobile-submenu-item">
-            <a class="mobile-submenu-link" href="#">Бытовая химия</a>
+            <a class="mobile-submenu-link" href="./todo.php">Бытовая химия</a>
           </li>
           <li class="mobile-submenu-item">
-            <a class="mobile-submenu-link" href="#">Дезинфицирующие средства</a>
+            <a class="mobile-submenu-link" href="./todo.php">Дезинфицирующие средства</a>
           </li>
           <li class="mobile-submenu-item">
-            <a class="mobile-submenu-link" href="#">Пищевые аэрозоли</a>
+            <a class="mobile-submenu-link" href="./todo.php">Пищевые аэрозоли</a>
           </li>
           <li class="mobile-submenu-item">
-            <a class="mobile-submenu-link" href="#">Косметическая продукция</a>
+            <a class="mobile-submenu-link" href="./todo.php">Косметическая продукция</a>
           </li>
           <li class="mobile-submenu-item">
-            <a class="mobile-submenu-link" href="#">Краски аэрозольные</a>
+            <a class="mobile-submenu-link" href="./todo.php">Краски аэрозольные</a>
           </li>
         </ul>
       </li>
@@ -43,10 +43,10 @@
         <a href="./trademarks.php" class="mobile-menu-link">Собственные торговые марки</a>
         <ul class="mobile-submenu">
           <li class="mobile-submenu-item">
-            <a class="mobile-submenu-link" href="#">Автохимия AG-Tech</a>
+            <a class="mobile-submenu-link" href="./todo.php">Автохимия AG-Tech</a>
           </li>
           <li class="mobile-submenu-item">
-            <a class="mobile-submenu-link" href="#">Автохимия AP</a>
+            <a class="mobile-submenu-link" href="./todo.php">Автохимия AP</a>
           </li>
         </ul>
       </li>
@@ -63,7 +63,7 @@
         <use href="img/sprite.svg#mark"></use>
       </svg>
       <address class="mobile-info-address">
-        г. Мосвка, Холодильный пер. 4к1с8
+        г. Москва, Холодильный пер. 4к1с8
       </address>
     </div>
     <!-- /.mobile-info -->
@@ -77,12 +77,12 @@
     </div>
     <!-- /.mobile-info -->
     <div class="social-network-icons">
-      <a href="#" class="social-network-icon-vk">
+      <a href="./todo.php" class="social-network-icon-vk">
         <svg class="mobile-logo-svg">
           <use href="img/sprite.svg#vk"></use>
         </svg>
       </a>
-      <a href="#" class="social-network-icon-instagram">
+      <a href="./todo.php" class="social-network-icon-instagram">
         <svg class="mobile-logo-svg">
           <use href="img/sprite.svg#inst"></use>
         </svg>
